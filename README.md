@@ -5,7 +5,7 @@ This repository is for user submitted CSS customizations for:
 1.  The very excellent Firefox and Thunderbird add-ons by Aris-t2 at https://github.com/Aris-t2 ; and
 2.  Other useful CSS contributions for Firefox and Thunderbird.
 
-Note:  I use the Classic Windows Theme on Win 7 as my starting point.  I prefer the older look of Windows over the Aero interface.  Then for Firefox I use the "Classic Blue" theme from ndnenigma  available for Firefox at https://addons.mozilla.org/en-US/firefox/user/5414873/ .  This theme is a dark theme for the toolbar and bookmarks menu toolbar and menu bar areas.  As a result various standard color choices from add-ons don't work as well as I would like.  Also, I like rounded tabs and spacing that is a little bit different from what the add-ons usually provide.
+Note:  I prefer the older look of Windows XP/2000 over the Aero interface.  Therefore, I use the Classic Windows Theme on Win 7 as my starting point.  Then I add the "Classic Start Menu" available from http://www.classicshell.net/ .  Then for Firefox I use the "Classic Blue" theme from "ndnenigma" available for Firefox at https://addons.mozilla.org/en-US/firefox/user/5414873/ .  This theme is a dark theme for the toolbar, bookmarks toolbar, and menu bar areas.  As a result various standard color choices from add-ons don't work as well as I would like (colorwise).  Also, I like rounded tabs and spacing that is a little bit different from what the add-ons usually provide.
 
 As a result I've had to modify some of the setup from Custom CSS For FX and CustomizeMyBird to get the look I find pleasing.
 
