@@ -1,0 +1,58 @@
+/* This file is for insert in the user CSS area of CustomizeMyBird options/settings page just copy and paste this file into the User CSS area of CustomizeMyBird.  Changes take effect immediately without restarting Thunderbird.  Color choices can be modified, etc if desired.  I use this CSS along with CustomizeMyBird and Theme And Font Size Changer to get Thunderbird looking the way I like.  Note that selecting some options in CustomizeMyBird or Theme And Font Size Changer may override this CSS.  You may have to play with things a bit to get "your" ideal setup. */
+
+/* remove top toolbar shadows */
+#mail-toolbox,
+.mail-toolbox,
+#mail-toolbar-menubar2,
+#tabs-toolbar,
+#tabs-toolbar .tabmail-tab[selected=true],
+#tabs-toolbar .tabmail-tab:not([selected=true]),
+#tabs-toolbar::after,
+#tabs-toolbar::before {
+    box-shadow: none !important;
+}
+
+#tabs-toolbar {	   
+    background-color: #E7F7FE !important;
+    color: black !important;
+    box-shadow: none !important;
+}
+
+#tabs-toolbar .tabmail-tab[selected=true] { 
+    box-shadow: none !important;
+    font-size: 100% !important;
+    font-weight: 600 !important;
+    color: black !important;
+    text-decoration: underline solid #000000 !important;
+    background-image: none !important;
+    background-color: #E9F0F3 !important;
+    margin-left: 1px !important;
+    margin-right: 0px !important;
+    border-radius: 9px 9px 0px 0px !important;
+    border: 1px solid #759AB3 !important;
+    border-bottom: 0px transparent none !important;
+} 
+
+#tabs-toolbar .tabmail-tab[selected=true]:hover {
+    color: #BC0030 !important;
+    text-decoration: underline solid #BC0030 !important;
+    box-shadow: none !important;
+}     
+
+#tabs-toolbar .tabmail-tab:not([selected=true]) { 
+    color: #F7FDFF !important;
+    font-weight: 300 !important;
+    background-image: none !important;
+    background-color: #2085EA !important;
+    margin-left: 1px !important;
+    margin-right: 0px !important;
+    border-radius: 9px 9px 0px 0px !important;
+    border: 1px solid #2D6799 !important;
+    border-bottom: 2px solid #20496C !important;
+} 
+
+#tabs-toolbar .tabmail-tab:not([selected=true]):hover {
+    color: #000000 !important;
+    font-weight: 600 !important;
+    box-shadow: none !important;
+ }
