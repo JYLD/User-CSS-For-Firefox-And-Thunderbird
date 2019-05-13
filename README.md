@@ -13,4 +13,6 @@ If you don't like the color choices in my CSS it can of course be easily modifie
 
 Also, remember I am no programmer so let me apologize in advance if my CSS contains any deviations from best practices, etc.
 
-If you want to further duplicate my color setup on Windows 7 then first select the Classic Windows Theme.  After that download the JYLD_Color_Choices.reg file to your computer and then double click it to add it to your registry.  You should save a copy of your current theme before doing this so you can go back to your original color choices.  Also note that my color choices work on Windows 7 and XP.  I have no idea how this reg file would affect Windows 8 to 10, if at all.
+If you want to further duplicate my color setup on Windows 7 then first select the Classic Windows Theme.  After that download the JYLD_Color_Choices.reg file to your computer and then double click it to add it to your registry.  You should save a copy of your current theme before doing this so you can go back to your original color choices.  Also note that my color choices work on Windows 7 and XP.  On Windows 7 you must be using the Windows Classic Theme for these color choices to have any effect.  After adding the color choices reg file settings to your registry you will have to reboot your computer for the changes to take effect.  
+
+NOTE:  I have no idea how the color choices reg file would affect Windows 8 to 10, if at all.  I don't even know if the Windows Classic Theme is available on Windows 8 to 10.
