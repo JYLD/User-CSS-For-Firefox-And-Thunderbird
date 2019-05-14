@@ -15,7 +15,7 @@ Therefore, I've had to modify some of the setup from Custom CSS For FX and Custo
 
 If you don't like the color choices in my CSS it can of course be easily modified.
 
-Also, remember I am no programmer so let me apologize in advance if my CSS looksfunny or something.
+Also, remember I am no programmer so let me apologize in advance if my CSS looks funny or something.
 
 If you want to further duplicate my color setup on Windows 7 then first select the Classic Windows Theme.  After that download the JYLD_Color_Choices.zip file to your computer and then double click the reg files it contains to add it to your registry.  You should save a copy of your current theme before doing this so you can go back to your original color choices.  Also note that my color choices work on Windows 7 and XP.  On Windows 7 you must be using the Windows Classic Theme for these color choices to have any effect.  After adding the color choices reg file settings to your registry you will have to reboot your computer for the changes to take effect.  
 
