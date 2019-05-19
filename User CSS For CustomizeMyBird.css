@@ -5,10 +5,12 @@
 .mail-toolbox,
 #mail-toolbar-menubar2,
 #tabs-toolbar,
+#tabs-toolbar .tab-text,
 #tabs-toolbar .tabmail-tab[selected=true],
 #tabs-toolbar .tabmail-tab:not([selected=true]),
 #tabs-toolbar::after,
 #tabs-toolbar::before {
+    -moz-box-shadow: none !important;
     box-shadow: none !important;
 }
 
@@ -56,3 +58,40 @@
     font-weight: 600 !important;
     box-shadow: none !important;
  }
+
+#tabs-toolbar .tab-text {
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}    
+
+/*___________________________________________*/
+
+#threadTree treechildren::-moz-tree-row(odd) { 
+    background-color: #E7F7FE !important; 
+} 
+
+#threadTree treechildren::-moz-tree-row(even) { 
+    background-color: #FCFBFA !important; 
+} 
+
+#threadTree treechildren::-moz-tree-row(hover) { 
+    background-color: #FFFFE0 !important; 
+} 
+
+#threadTree treechildren::-moz-tree-row(selected, focus) { 
+    background-color: Highlight !important; 
+} 
+
+#threadTree treechildren::-moz-tree-row { 
+    height: 22px !important; 
+    min-height: 22px !important; 
+} 
+
+#folderTree > treechildren::-moz-tree-row(hover) { 
+    background-color: #FFFFE0 !important; 
+} 
+
+#folderTree > treechildren::-moz-tree-row(selected, focus) { 
+    background-color: Highlight !important; 
+}
+
