@@ -12,16 +12,21 @@
 #tabs-toolbar::before {
     -moz-box-shadow: none !important;
     box-shadow: none !important;
+    text-shadow: none !important;
+}
+
+#mail-toolbox {	   
+/*    background-color: #BFDCF9 !important;  /**/
+    background-color: #F3F7F8 !important;
+    color: #1834B0 !important;
 }
 
 #tabs-toolbar {	   
-    background-color: #E7F7FE !important;
+/*    background-color: #E7F7FE !important;   /**/
     color: black !important;
-    box-shadow: none !important;
 }
 
 #tabs-toolbar .tabmail-tab[selected=true] { 
-    box-shadow: none !important;
     font-size: 100% !important;
     font-weight: 600 !important;
     color: black !important;
@@ -32,18 +37,18 @@
     margin-right: 0px !important;
     border-radius: 9px 9px 0px 0px !important;
     border: 1px solid #759AB3 !important;
-    border-bottom: 0px transparent none !important;
+    border-bottom: 0px solid transparent !important;
 } 
 
 #tabs-toolbar .tabmail-tab[selected=true]:hover {
     color: #BC0030 !important;
     text-decoration: underline solid #BC0030 !important;
-    box-shadow: none !important;
+    text-shadow: none !important;
 }     
 
 #tabs-toolbar .tabmail-tab:not([selected=true]) { 
     color: #F7FDFF !important;
-    font-weight: 300 !important;
+    font-weight: 400 !important;
     background-image: none !important;
     background-color: #2085EA !important;
     margin-left: 1px !important;
@@ -51,47 +56,108 @@
     border-radius: 9px 9px 0px 0px !important;
     border: 1px solid #2D6799 !important;
     border-bottom: 2px solid #20496C !important;
+    text-shadow: none !important;
 } 
 
 #tabs-toolbar .tabmail-tab:not([selected=true]):hover {
     color: #000000 !important;
-    font-weight: 600 !important;
-    box-shadow: none !important;
+    font-weight: 400 !important;
+    text-shadow: none !important;
  }
 
 #tabs-toolbar .tab-text {
     -moz-box-shadow: none !important;
     box-shadow: none !important;
+    text-shadow: none !important;
 }    
 
 /*___________________________________________*/
 
 #threadTree treechildren::-moz-tree-row(odd) { 
     background-color: #E7F7FE !important; 
+    border: 0px solid transparent !important;
+    padding-top: 3px !important;
 } 
 
 #threadTree treechildren::-moz-tree-row(even) { 
-    background-color: #FCFBFA !important; 
+    background-color: #F9FEFF !important; 
+    border: 0px solid transparent !important;
+    padding-top: 3px !important;
 } 
 
 #threadTree treechildren::-moz-tree-row(hover) { 
-    background-color: #FFFFE0 !important; 
+    background-color: #BFDCF9 !important;
+    border: 0px solid transparent !important;
+    margin-left: 8px !important;
+    margin-right: 8px !important;
 } 
 
 #threadTree treechildren::-moz-tree-row(selected, focus) { 
     background-color: Highlight !important; 
+    border: 0px solid transparent !important;
+    margin-left: 8px !important;
+    margin-right: 8px !important;
 } 
 
 #threadTree treechildren::-moz-tree-row { 
     height: 22px !important; 
     min-height: 22px !important; 
+    padding-top: 3px !important;
+    border: 0px solid transparent !important;
+} 
+
+#folderTree { 
+    background-color: #465966 !important; 
+    color: #FFFFFF !important; 
+    font-weight: 400 !important;
+    border: 0px solid transparent !important;
 } 
 
 #folderTree > treechildren::-moz-tree-row(hover) { 
-    background-color: #FFFFE0 !important; 
+    background-color: #2085EA !important; 
+    border: 0px solid transparent !important;
 } 
 
 #folderTree > treechildren::-moz-tree-row(selected, focus) { 
     background-color: Highlight !important; 
+    border: 0px solid transparent !important;
+}
+
+#folderTree > treechildren::-moz-tree-row {
+    height: 22px !important; 
+    min-height: 22px !important; 
+    padding-top: 2px !important;
+    border: 0px solid transparent !important;
+} 
+
+#threadpane-splitter {
+    background-color: #465966 !important; 
+    color: #465966 !important; 
+    border: 0px solid #465966 !important;
+}
+
+#folderpane_splitter {
+    background-color: #465966 !important; 
+    color: #465966 !important; 
+    border: 0px solid #465966 !important;
+}
+
+#attachment_splitter {
+    background-color: #465966 !important; 
+    color: #465966 !important; 
+    border: 0px solid #465966 !important;
+}
+
+/*___________________________________________*/
+
+#msgHeaderView {
+    background-color: #D9EAFB !important;
+    border: 0px solid transparent !important;
+}
+
+#quick-filter-bar-main-bar {
+    background-color: #465966 !important;
+    color: #FFFFFF !important;
+    border: 0px solid transparent !important;
 }
 
