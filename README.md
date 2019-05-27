@@ -20,3 +20,5 @@ Also, remember I am no programmer so let me apologize in advance if my CSS looks
 If you want to further duplicate my color setup on Windows 7 then first select the Classic Windows Theme.  After that download the JYLD_Color_Choices.zip file to your computer and then double click the reg files it contains to add it to your registry.  You should save a copy of your current theme before doing this so you can go back to your original color choices.  Also note that my color choices work on Windows 7 and XP.  On Windows 7 you must be using the Windows Classic Theme for these color choices to have any effect.  After adding the color choices reg file settings to your registry you will have to reboot your computer for the changes to take effect.  
 
 NOTE:  I have no idea how the color choices reg files would affect Windows 8 to 10, if at all.  I don't even know if the Windows Classic Theme is available on Windows 8 to 10.
+
+You can contact JYLD at g a r y AT g a r y b r i t t DOT c o m (delete spaces and make substitutions).
