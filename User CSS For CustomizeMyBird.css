@@ -111,6 +111,7 @@
     color: #FFFFFF !important; 
     font-weight: 400 !important;
     border: 0px solid transparent !important;
+    margin-top: -2px !important;
 } 
 
 #folderTree > treechildren::-moz-tree-row(hover) { 
@@ -126,7 +127,7 @@
 #folderTree > treechildren::-moz-tree-row {
     height: 22px !important; 
     min-height: 22px !important; 
-    padding-top: 2px !important;
+/*    padding-top: 3px !important;  /**/
     border: 0px solid transparent !important;
 } 
 
@@ -159,5 +160,17 @@
     background-color: #465966 !important;
     color: #FFFFFF !important;
     border: 0px solid transparent !important;
+}
+
+/*___________________________________________*/
+
+treechildren::-moz-tree-image(folderNameCol) {
+    background-image: url(file:///C:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/vmurvfxa.default/extensions/SunIcon5.png) !important;
+    background-size: 40% 40% !important;
+    background-position: left center !important;
+    background-repeat: no-repeat !important;
+/*    margin-top: 6px !important;  /**/
+    opacity: 0 !important;
+/* -moz-margin-end: -16px !important;   /**/
 }
 
