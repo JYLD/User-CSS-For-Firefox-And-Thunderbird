@@ -1,3 +1,5 @@
+/* Place the below in the user CSS section of CustomizeMyBird.  Some of these things may work in a userChrome file.  I'm not sure. */
+
  /* remove top toolbar shadows */
 #mail-toolbox,
 .mail-toolbox,
@@ -344,18 +346,41 @@ treechildren::-moz-tree-image(folderNameCol) {
 }
 
 calendar-list-tree > tree > treechildren {
-    background-color: #F3F4F5 !important;
+    background-color: #FEF6E2 !important;
     color: #12298E !important; 
 }
 
+#calendar-panel {
+    background-color: #FBD06B !important;
+}
+
+#ltnSidebar {
+    background-color: #FEF6E2 !important;
+}
+
+calendar-day-label {
+    background-color: #FED4D4 !important;
+}
+
+/*
+tab[calview][selected="true"] {
+    background-color: red !important;
+}
+*/
+
 #today-pane-panel > sidebarheader {
-    background-color: #A8FDA8 !important;
+    background-color: #FBD06B !important;
     color: #12298E !important;
     font-weight: 600 !important;
 }
 
+.today-subpane {
+    background-color: #EDEDED !important;
+    color: #12298E !important;
+}
+
 #todaypane-new-event-button {
-    background-color: #A8FDA8 !important;
+    background-color: #EDEDED !important;
     color: #12298E !important;
     font-weight: 600 !important;
     border-top: 1px solid #FFFFFF !important;
@@ -375,10 +400,14 @@ calendar-list-tree > tree > treechildren {
 
 minimonth {
     background-color: #FBD06B !important;
-    border-top: 3px solid #FEF6E2 !important;
-    border-left: 3px solid #FEF6E2 !important;
-    border-right: 3px solid #D7971B !important;
-    border-bottom: 3px solid #D7971B !important;
+    border-top: 2px solid #FEF6E2 !important;
+    border-left: 2px solid #FEF6E2 !important;
+    border-right: 2px solid #D7971B !important;
+    border-bottom: 2px solid #D7971B !important;
+}
+
+#calMinimonthBox {
+    color: #12298E !important;
 }
 
 #calendar-nav-control {
@@ -467,3 +496,4 @@ tab[calview][selected="true"] {
 }
 
 /*___________________________________________*/
+
