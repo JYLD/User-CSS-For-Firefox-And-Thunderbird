@@ -22,35 +22,61 @@
 */
 
 #mail-toolbox {	   
-/*    background-color: #BFDCF9 !important;
-    background-color: #7BB7F3 !important;
-    background-color: #2085EA !important;
-    background-color: #D8EFFE !important;
-*/
 /*    background-color: #D8EFFE !important;    */
 
     background: rgba(224,224,224,.6)
-                  linear-gradient(rgba(170,232,252,.8), rgba(47,141,235,.6) 60%,
-                                                      rgba(32,133,234,.6) 50%, rgba(20,114,208,.3)) !important;
+                  linear-gradient(rgba(170,232,252,.8), rgba(47,141,235,.6) 49%,
+                                                      rgba(32,133,234,.6) 51%, rgba(20,114,208,.3)) !important;
 
-    color: #000000 !important;
+    color: #12298E !important;
     font-weight: 590 !important;
 }
 
+#mail-toolbox toolbarbutton {
+    background-color: rgba(255,255,255,.9) !important;
+    border-top: 1px solid #FFFFFF !important;
+    border-left: 1px solid #FFFFFF !important;
+    border-right: 1px solid #000000 !important;
+    border-bottom: 1px solid #000000 !important;
+}
+
 #calendar-toolbox {	   
-/*    background-color: #BFDCF9 !important;
-    background-color: #7BB7F3 !important;
-    background-color: #2085EA !important;
-    background-color: #D8EFFE !important;
-*/
 /*    background-color: #BBEEFF !important;   */
 
     background: rgba(224,224,224,.6)
-                  linear-gradient(rgba(170,232,252,.8), rgba(47,141,235,.6) 60%,
-                                                      rgba(32,133,234,.6) 50%, rgba(20,114,208,.3)) !important; 
+                  linear-gradient(rgba(170,232,252,.8), rgba(47,141,235,.6) 49%,
+                                                      rgba(32,133,234,.6) 51%, rgba(20,114,208,.3)) !important;
 
-    color: #000000 !important;
-    font-weight: 590 !important;
+    color: #12298E !important;
+    font-weight: 600 !important;
+}
+
+#calendar-toolbox toolbarbutton {
+    background-color: rgba(255,255,255,.7) !important;
+    border-top: 1px solid #FFFFFF !important;
+    border-left: 1px solid #FFFFFF !important;
+    border-right: 1px solid #000000 !important;
+    border-bottom: 1px solid #000000 !important;
+}
+
+#ab-toolbox {
+/*    background-color: #BBEEFF !important;   */
+
+    background: rgba(224,224,224,.4)
+                  linear-gradient(rgba(170,232,252,.8), rgba(47,141,235,.6) 49%,
+                                                      rgba(32,133,234,.6) 51%, rgba(20,114,208,.3)) !important;
+
+    color: #12298E !important;
+    font-weight: 600 !important;
+}
+
+#ab-toolbox toolbarbutton {
+    background-color: rgba(255,255,255,.7) !important;
+    color: #12298E !important;
+    border-top: 1px solid #FFFFFF !important;
+    border-left: 1px solid #FFFFFF !important;
+    border-right: 1px solid #000000 !important;
+    border-bottom: 1px solid #000000 !important;
 }
 
 #tabs-toolbar {	   
@@ -244,20 +270,200 @@ treechildren::-moz-tree-image(folderNameCol) {
     opacity: 0 !important;
 }
 
-/*___________________________________________*/
+/* ______ Write Message Window Tweaks ______*/
 
 #compose-toolbox {
     text-shadow: none !important;    
     color: #000000 !important;
-    background: rgba(224,224,224,.5)
-                  linear-gradient(rgba(170,232,252,.8), rgba(47,141,235,.7) 60%,
-                                                      rgba(32,133,234,.6) 50%, rgba(20,114,208,.4)) !important;
-
+    background: rgba(224,224,224,.6)
+                  linear-gradient(rgba(170,232,252,.8), rgba(47,141,235,.6) 49%,
+                                                      rgba(32,133,234,.6) 51%, rgba(20,114,208,.3)) !important;
 }
 
 #compose-toolbox toolbarbutton {
     text-shadow: none !important;    
-    color: #000000 !important;
+    color: #12298E !important;
+    font-weight: 590 !important;
+    background-color: rgba(255,255,255,.7) !important;
+    border-top: 1px solid #FFFFFF !important;
+    border-left: 1px solid #FFFFFF !important;
+    border-right: 1px solid #000000 !important;
+    border-bottom: 1px solid #000000 !important;
+}
+
+/* ______ Search Box Tweaks ______*/
+
+.searchBox > .textbox-input-box {
+    font-size: 14px !important;
+    font-weight: 600 !important;
+}
+
+.searchBox[focused="true"] {
+    background-color: #FFFFFF !important;
+    color: #072AFF !important;
+}
+
+.searchBox:not([focused="true"]) {
+    background-color: #DADDE0 !important;
+    color: #072AFF !important;
+}
+
+.searchBox:hover {
+    background-color: #FFFFFF !important;
+    color: #072AFF !important;
+}
+
+/* ______ Calendar Tweaks ______*/
+
+#calsidebar_splitter {
+    border-width: 0 !important;
+    width: 4px !important;
+    background-color: #465966 !important;
+}
+
+#button-save, #saveandcloseButton,
+#button-saveandclose, #acceptButton {
+    fill: darkgreen !important;
+}
+
+#deleteButton, #declineButton,
+#button-delete.cal-event-toolbarbutton {
+    fill: #BC0030 !important;
+}
+
+#button-attendees {
+    fill: #2085EA !important;
+}
+
+#button-privacy {
+    fill: #FF00FF !important;
+}
+
+#button-attach {
+    fill: #FFA400 !important;
+}
+
+calendar-list-tree > tree > treechildren {
+    background-color: #F3F4F5 !important;
+    color: #12298E !important; 
+}
+
+#today-pane-panel > sidebarheader {
+    background-color: #A8FDA8 !important;
+    color: #12298E !important;
+    font-weight: 600 !important;
+}
+
+#todaypane-new-event-button {
+    background-color: #A8FDA8 !important;
+    color: #12298E !important;
+    font-weight: 600 !important;
+    border-top: 1px solid #FFFFFF !important;
+    border-left: 1px solid #FFFFFF !important;
+    border-right: 1px solid #000000 !important;
+    border-bottom: 1px solid #000000 !important;
+}
+
+#todaypane-new-event-button:hover {
+    background-color: #FFFFFF !important;
+    text-decoration: underline solid !important;
+}
+
+.reminder-icon {
+    fill: #0000FF !important;
+}
+
+minimonth {
+    background-color: #FBD06B !important;
+    border-top: 3px solid #FEF6E2 !important;
+    border-left: 3px solid #FEF6E2 !important;
+    border-right: 3px solid #D7971B !important;
+    border-bottom: 3px solid #D7971B !important;
+}
+
+#calendar-nav-control {
+/*    background-color: #A8FDA8 !important;  */
+    background: rgba(215,151,27,.1)
+                  linear-gradient(rgba(254,215,123,.8), rgba(252,187,57,.6),
+                                                      rgba(248,159,39,.6), rgba(215,151,27,.5)) !important;
+}
+
+.view-header {
+    color: #000000 !important; 
+    font-weight: 600 !important;
+}
+
+/*
+#view-deck {
+    background-color: red !important;
+}
+*/
+
+/*
+tab[calview][selected="true"] {
+    background-color: red !important;
+}
+*/
+
+.navigation-inner-box > hbox {
+    background-color: #EDEDED !important;
+}
+
+.today-navigation-button {
+    background-color: #EDEDED !important;
+    color: #12298E !important; 
+    font-weight: 600 !important;
+    border-top: 1px solid #FFFFFF !important;
+    border-left: 1px solid #FFFFFF !important;
+    border-right: 1px solid #000000 !important;
+    border-bottom: 1px solid #000000 !important;
+}
+
+.today-navigation-button:hover {
+    background-color: #FFFFFF !important;
+    color: #12298E !important; 
+    text-decoration: underline solid !important;
+    font-weight: 600 !important;
+}
+
+.view-navigation-button {
+    background-color: #EDEDED !important;
+    color: #12298E !important;
+    border-top: 1px solid #FFFFFF !important;
+    border-left: 1px solid #FFFFFF !important;
+    border-right: 1px solid #000000 !important;
+    border-bottom: 1px solid #000000 !important;
+}
+
+.view-navigation-button:hover {
+    background-color: #FFFFFF !important;
+}
+
+.navigation-bottombox {
+    background-color: #EDEDED !important;
+}
+
+#calendar-view-box {
+    background-color: #FBD06B !important;
+    color: #000000 !important; 
+    border-top: 2px solid #FFFFFF !important;
+    border-left: 2px solid #FFFFFF !important;
+    border-right: 2px solid #000000 !important;
+    border-bottom: 2px solid #000000 !important;
+
+}
+
+/* ______ Addressbook Tweaks ______*/
+
+/*  Addressbook Contacts Groups - List */
+#dirTree {
+    background-color: #D0D8CB !important;
+}
+
+#dirTree-splitter {
+    border-width: 0 !important;
+    width: 4px !important;
+    background-color: #465966 !important;
 }
 
 /*___________________________________________*/
