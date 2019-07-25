@@ -1,4 +1,6 @@
-/* Place the below in the user CSS section of CustomizeMyBird.  Some of these things may work in a userChrome file.  I'm not sure. */
+/* Place the below in the user CSS section of CustomizeMyBird.  Some of these things may work in a userChrome file, but I'm not sure how well.  Never tried it. */
+
+/* ______General, Mail Tab, And Other Tabs Configuration_____*/
 
  /* remove top toolbar shadows */
 #mail-toolbox,
@@ -139,7 +141,13 @@
     text-shadow: none !important;
 }    
 
-/*___________________________________________*/
+#quick-filter-bar-main-bar {
+    background-color: #465966 !important;
+    color: #FFFFFF !important;
+    border: 0px solid transparent !important;
+}
+
+/* ______Mail Folder Tree And Email Thread Tree_____*/
 
 #threadTree treechildren::-moz-tree-row(odd) { 
     background-color: #E7F7FE !important; 
@@ -225,6 +233,14 @@
     border: 0px solid transparent !important;
 } 
 
+treechildren::-moz-tree-image(folderNameCol) {
+    background-image: url(file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/SunIcon5.png) !important;
+    background-size: 30% 30% !important;
+    background-position: left center !important;
+    background-repeat: no-repeat !important;
+    opacity: 0 !important;
+}
+
 #threadpane-splitter {
     background-color: #465966 !important; 
     color: #465966 !important; 
@@ -242,9 +258,9 @@
     color: #465966 !important; 
     border: 2px solid #465966 !important;
 }
-/**/
 
-/*___________________________________________*/
+
+/* ______Message Content Pane Items_____*/
 
 #msgHeaderView {
     background-color: #D8EFFE !important; 
@@ -254,22 +270,6 @@
                                                       rgba(32,133,234,.6) 51%, rgba(20,114,208,.3)) !important;   */
 
     border: 0px solid transparent !important;
-}
-
-#quick-filter-bar-main-bar {
-    background-color: #465966 !important;
-    color: #FFFFFF !important;
-    border: 0px solid transparent !important;
-}
-
-/*___________________________________________*/
-
-treechildren::-moz-tree-image(folderNameCol) {
-    background-image: url(file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/SunIcon5.png) !important;
-    background-size: 30% 30% !important;
-    background-position: left center !important;
-    background-repeat: no-repeat !important;
-    opacity: 0 !important;
 }
 
 /* ______ Write Message Window Tweaks ______*/
@@ -314,6 +314,7 @@ treechildren::-moz-tree-image(folderNameCol) {
     background-color: #FFFFFF !important;
     color: #072AFF !important;
 }
+
 
 /* ______ Calendar Tweaks ______*/
 
@@ -479,7 +480,92 @@ tab[calview][selected="true"] {
     border-left: 2px solid #FFFFFF !important;
     border-right: 2px solid #000000 !important;
     border-bottom: 2px solid #000000 !important;
+}
 
+/*
+modevbox {
+    background-color: red !important;
+}
+*/
+
+modehbox {
+    background-color: #FBD06B !important;
+    color: #12298E !important;
+    border-top: 1px solid #FFFFFF !important;
+    border-left: 1px solid #FFFFFF !important;
+    border-right: 1px solid #000000 !important;
+    border-bottom: 1px solid #000000 !important;
+}
+
+modehbox:hover {
+    background-color: #FFFFFF !important;
+    color: #12298E !important;
+}
+
+toolbarbutton[todaypane="true"] {
+    background-color: #2085EA !important;
+}
+
+minimonth-header {
+    background-color: #FEF6E2 !important;
+    color: #12298E !important;
+}
+
+minimonth-header toolbarbutton {
+    background-color: #FEF6E2 !important;
+    color: #12298E !important;
+    border-top: 1px solid #FFFFFF !important;
+    border-left: 1px solid #FFFFFF !important;
+    border-right: 1px solid #000000 !important;
+    border-bottom: 1px solid #000000 !important;
+}
+
+minimonth-header toolbarbutton:hover {
+    background-color: #FFFFFF !important;
+}
+
+.today-subpane toolbarbutton {
+    background-color: #E0E0E0 !important;
+    color: #12298E !important;
+    border-top: 1px solid #FFFFFF !important;
+    border-left: 1px solid #FFFFFF !important;
+    border-right: 1px solid #000000 !important;
+    border-bottom: 1px solid #000000 !important;
+}
+
+.today-subpane toolbarbutton:hover {
+    background-color: #FFFFFF !important;
+}
+
+/*
+tab[calview] {
+    background-color: red !important;
+}
+*/
+
+calendar-list-tree {
+    background-color: #FEF6E2 !important;
+    border-top: 1px solid #000000 !important;
+    border-bottom: 1px solid #000000 !important;
+}
+
+/*
+#bottom-events-box {
+    background-color: red !important;
+}
+*/
+
+/*
+#unifinder-searchBox {
+    background-color: red !important;
+}
+*/
+
+.unifinder-closebutton {
+    border-top: 1px solid #FFFFFF !important;
+    border-left: 1px solid #FFFFFF !important;
+    border-right: 1px solid #000000 !important;
+    border-bottom: 1px solid #000000 !important;
 }
 
 /* ______ Addressbook Tweaks ______*/
@@ -496,4 +582,3 @@ tab[calview][selected="true"] {
 }
 
 /*___________________________________________*/
-
