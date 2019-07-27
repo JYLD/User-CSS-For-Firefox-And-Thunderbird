@@ -26,18 +26,17 @@
 */
 
 #mail-toolbox {	   
-/*    background-color: #D8EFFE !important;    */
-
     background: rgba(224,224,224,.6)
                   linear-gradient(rgba(170,232,252,.8), rgba(47,141,235,.6) 49%,
                                                       rgba(32,133,234,.6) 51%, rgba(20,114,208,.3)) !important;
-
     color: #12298E !important;
     font-weight: 590 !important;
 }
 
 #mail-toolbox toolbarbutton {
-    background-color: rgba(255,255,255,.9) !important;
+    background: rgba(255,255,255,.95)
+                  linear-gradient(rgba(253,254,255,.8), rgba(243,244,245,.8),
+                                                      rgba(213,216,217,.6), rgba(193,194,195,.6)) !important;
     border-top: 1px solid #FFFFFF !important;
     border-left: 1px solid #FFFFFF !important;
     border-right: 1px solid #000000 !important;
@@ -198,7 +197,7 @@ treechildren::-moz-tree-twisty {
     padding-inline-end: 5px !important;
     padding-inline-start: 5px !important;
     margin-top: 5px !important;
-    margin-bottom: 5px !important;
+    margin-bottom: 4px !important;
     margin-right: 8px !important;
     margin-left: 4px !important;
     border-top: 1px solid #FFFFFF !important;
@@ -206,7 +205,7 @@ treechildren::-moz-tree-twisty {
     border-right: 1px solid #000000 !important;
     border-bottom: 1px solid #000000 !important;
     border-radius: 4px 4px 4px 4px !important;
-    background-color: #E4F2FF !important;
+    background-color: #E2F0FE !important;
 }
 
 treechildren::-moz-tree-image(folderNameCol) {
@@ -358,6 +357,22 @@ calendar-day-label {
     background-color: #FED4D4 !important;
 }
 
+window {
+    --viewColor: #000000 !important;
+    --viewBackground: #E1F0FD !important;
+    --viewBorderColor: #8B9EBF !important;
+/*    --viewTodayBorderColor: #D70022 !important;  */
+    --viewTodayBackground: #FEE2E2 !important;
+    --viewTodayOffBackground: #FFC0C0 !important;
+/*    --viewHeaderSelectedBackground: red !important;  */
+}
+
+/*
+tab[calview] {
+    background-color: red !important;
+}
+*/
+
 /*
 tab[calview][selected="true"] {
     background-color: red !important;
@@ -407,7 +422,6 @@ minimonth {
 }
 
 #calendar-nav-control {
-/*    background-color: #A8FDA8 !important;  */
     background: rgba(215,151,27,.1)
                   linear-gradient(rgba(254,215,123,.8), rgba(252,187,57,.6),
                                                       rgba(248,159,39,.6), rgba(215,151,27,.5)) !important;
@@ -418,17 +432,10 @@ minimonth {
     font-weight: 600 !important;
 }
 
-/*
-#view-deck {
-    background-color: red !important;
-}
-*/
 
-/*
-tab[calview][selected="true"] {
-    background-color: red !important;
+#view-deck {
+    background-color: #E1F0FD !important;
 }
-*/
 
 .navigation-inner-box > hbox {
     background-color: #EDEDED !important;
@@ -477,8 +484,8 @@ tab[calview][selected="true"] {
     border-bottom: 2px solid #000000 !important;
 }
 
-/*
-modevbox {
+/* Background Around MiniCalendar On Left */
+/*modevbox {
     background-color: red !important;
 }
 */
@@ -531,12 +538,6 @@ minimonth-header toolbarbutton:hover {
 .today-subpane toolbarbutton:hover {
     background-color: #FFFFFF !important;
 }
-
-/*
-tab[calview] {
-    background-color: red !important;
-}
-*/
 
 calendar-list-tree {
     background-color: #FEF6E2 !important;
@@ -597,14 +598,3 @@ calendar-list-tree {
 }
 
 /*___________________________________________*/
-
-    /* Calendarview: Current Day in different views */
-/*
-window {
-    --viewDayBoxOffSelectedBackground: #899684 !important;     This is the shaded area in each day that is outside the normal calendar time hours BUT for selected day only */
-   --viewHeaderSelectedBackground: #FED4D4 !important;
-}
-*/
-
-/*___________________________________________*/
-
