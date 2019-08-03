@@ -376,6 +376,7 @@ window {
 .calendar-event-details-core.title-desc,
 .calendar-event-details-core.location-desc {
     text-shadow: none !important;
+    font-size: 14px !important;
     color: #000000 !important;
     font-weight: 500 !important;
 }
@@ -443,7 +444,6 @@ minimonth {
     color: #000000 !important; 
     font-weight: 600 !important;
 }
-
 
 #view-deck {
     background-color: #FBD06B !important;
@@ -672,8 +672,42 @@ calendar-list-tree {
     border: 0px solid transparent !important;
 }
 
-/*___________________________________________*/
+/*______Miscellaneous Button Fills______*/
 
 .message-icon {
     fill: #00FF00 !important;
 }
+
+#appmenu_print,
+#appmenu_print_popup,
+.appmenu-edit-button {
+    fill: #0000FF !important;
+}
+
+#appmenu-cut,
+#appmenu-editmenu-cut {
+    fill: #BC0030 !important;
+}
+
+#appmenu-copy,
+#appmenu-editmenu-copy {
+    fill: darkgreen !important;
+}
+
+#appmenu-paste,
+#appmenu-editmenu-paste {
+    fill: #0000FF !important;
+}
+
+#appmenu-quit {
+    fill: red !important;
+}
+
+#appmenu_addons {
+    background-color: #D8EFFE !important;
+}
+
+
+
+/*___________________________________________*/
+
