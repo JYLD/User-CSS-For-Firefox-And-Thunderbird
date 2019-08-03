@@ -7,6 +7,8 @@
 .mail-toolbox,
 #mail-toolbar-menubar2,
 #tabs-toolbar,
+#compose-toolbox,
+#ab-toolbox,
 #tabs-toolbar .tab-text,
 #tabs-toolbar .tabmail-tab[selected=true],
 #tabs-toolbar .tabmail-tab:not([selected=true]),
@@ -151,7 +153,7 @@
 #folderTree { 
     background-color: #465966 !important; 
     color: #FFFFFF !important; 
-    font-weight: 400 !important;
+    font-weight: 500 !important;
     border: 0px solid transparent !important;
     margin-top: -1px !important;
 } 
@@ -236,7 +238,7 @@ treechildren::-moz-tree-image(folderNameCol) {
 
 #compose-toolbox {
     text-shadow: none !important;    
-    color: #000000 !important;
+    color: #0000CC !important;
     background: rgba(224,224,224,.6)
                   linear-gradient(rgba(170,232,252,.8), rgba(47,141,235,.6) 49%,
                                                       rgba(32,133,234,.6) 51%, rgba(20,114,208,.3)) !important;
@@ -295,9 +297,10 @@ treechildren::-moz-tree-image(folderNameCol) {
 }
 
 #calsidebar_splitter {
-    border-width: 0 !important;
-    width: 4px !important;
-    background-color: #465966 !important;
+    border-width: 0px !important;
+    width: 2px !important;
+    background-color: #FEF6E2 !important;
+    padding-left: 4px !important;
 }
 
 #button-save, #saveandcloseButton,
@@ -337,7 +340,7 @@ calendar-list-tree > tree > treechildren {
 
 calendar-day-label {
     background-color: #FED4D4 !important;
-    color: #0000CC !important;
+    color: #0000D0 !important;
 }
 
 .calendar-day-label-name[relation="today"],
@@ -354,12 +357,27 @@ calendar-day-label {
 
 window {
     --viewColor: #000000 !important;
-    --viewBackground: #E1F0FD !important;
-    --viewBorderColor: #8B9EBF !important;
+    --viewBackground: #C8D8F0 !important;
+    --viewBorderColor: #6E86B0 !important;
     --viewTodayBorderColor: #8B9EBF !important;
     --viewTodayBackground: #FEE2E2 !important;
     --viewTodayOffBackground: #FFC0C0 !important;
 /*    --viewHeaderSelectedBackground: red !important;  */
+    --viewTimeBoxColor: #000000 !important;
+}
+
+.calendar-time-bar-box-odd,
+.calendar-time-bar-box-even {
+    font-weight: 600 !important;
+    background-color: #FBD06B !important;
+    border-top: 1px solid #000000 !important;
+}
+
+.calendar-event-details-core.title-desc,
+.calendar-event-details-core.location-desc {
+    text-shadow: none !important;
+    color: #000000 !important;
+    font-weight: 500 !important;
 }
 
 /*
@@ -397,7 +415,6 @@ tab[calview][selected="true"] {
 
 #todaypane-new-event-button:hover {
     background-color: #FFFFFF !important;
-    text-decoration: underline solid !important;
 }
 
 .reminder-icon {
@@ -429,7 +446,7 @@ minimonth {
 
 
 #view-deck {
-    background-color: #E1F0FD !important;
+    background-color: #FBD06B !important;
 }
 
 .navigation-inner-box > hbox {
@@ -566,6 +583,7 @@ calendar-list-tree {
                                                       rgba(32,133,234,.6) 51%, rgba(20,114,208,.3)) !important;
     color: #12298E !important;
     font-weight: 600 !important;
+    text-shadow: none !important;
 }
 
 #ab-toolbox toolbarbutton {
@@ -583,9 +601,14 @@ calendar-list-tree {
 }
 
 #dirTree-splitter {
-    border-width: 0 !important;
-    width: 4px !important;
-    background-color: #465966 !important;
+    border-width: 0px !important;
+    width: 2px !important;
+    background-color: #D0D8CB !important;
+}
+
+#CardViewBox {
+    background-color: #E6EAE4 !important;
+    color: #12298E !important;
 }
 
 /*______Hide Scrollbars Only On Email Tab_______*/
@@ -651,3 +674,6 @@ calendar-list-tree {
 
 /*___________________________________________*/
 
+.message-icon {
+    fill: #00FF00 !important;
+}
