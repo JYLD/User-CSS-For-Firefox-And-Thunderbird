@@ -21,7 +21,7 @@ If you want to further duplicate my color setup on Windows 7 then first select t
 
 NOTE:  I have no idea how the color choices reg files would affect Windows 8 to 10, if at all.  I don't even know if the Windows Classic Theme is available on Windows 8 to 10.
 
-Based on now my Thunderbird CSS tweaks work on my wife's Windows 7 aero interface, I can say that CustomizeMyBird, CSSFx For Firefox, and my tweaks to both of these all work pretty well with the aero interface.  I would not use my reg files to adjust the colors if you use the Windows Aero/Glass interface.  Instead I recommend you use the default color setup and first try one of the aero blue themes.  Also, in my opinion Thunderbird looks much better with either the classic or aero/glass interfaces if you have the title bar 
+Based on how my Thunderbird CSS tweaks work on my wife's Windows 7 aero interface, I can say that CustomizeMyBird, CSSFx For Firefox, and my tweaks to both of these all work pretty well with the aero interface.  I would not use my reg files to adjust the colors if you use the Windows Aero/Glass interface.  Instead I recommend you use the default color setup and first try one of the aero blue themes.  Also, in my opinion Thunderbird looks much better with either the classic or aero/glass interfaces if you have the title bar 
 turned on.  Its off by default in Thunderbird.  
 
 To turn on the title bar in Firefox or Thunderbird set the this value in about:config 
