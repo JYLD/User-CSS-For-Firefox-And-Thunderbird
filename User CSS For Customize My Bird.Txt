@@ -7,6 +7,7 @@
 .mail-toolbox,
 #mail-toolbar-menubar2,
 #tabs-toolbar,
+#status-bar,
 #compose-toolbox,
 #ab-toolbox,
 #tabs-toolbar .tab-text,
@@ -21,16 +22,30 @@
     text-shadow: none !important;
 }
 
-/* This is the menubar */
-/* #mail-toolbar-menubar2 {
-    background-color: #000000 !important;
+#status-bar {
+    background: rgba(18,104,190,.6)
+                  linear-gradient(rgba(170,232,252,.8), rgba(47,141,235,.7) 49%,
+                                                      rgba(32,133,234,.6) 51%, rgba(20,114,208,.5)) !important;
+    text-shadow: none !important;
+    color: white !important;
+    font-weight: 500 !important;
 }
-*/
+
+/* This is the menubar */
+#mail-toolbar-menubar2 {
+    background-color: #1E63B2 !important;
+    background: rgba(18,104,190,.6)
+                  linear-gradient(rgba(170,232,252,.8), rgba(47,141,235,.7) 49%,
+                                                      rgba(32,133,234,.6) 51%, rgba(20,114,208,.5)) !important;
+    color: white !important;
+    text-shadow: none !important;
+}
 
 #mail-toolbox {	   
-    background: rgba(224,224,224,.6)
-                  linear-gradient(rgba(170,232,252,.8), rgba(47,141,235,.6) 49%,
-                                                      rgba(32,133,234,.6) 51%, rgba(20,114,208,.3)) !important;
+    background-color: #1E63B2 !important;
+    background: rgba(18,104,190,.6)
+                  linear-gradient(rgba(170,232,252,.8), rgba(47,141,235,.7) 49%,
+                                                      rgba(32,133,234,.6) 51%, rgba(20,114,208,.5)) !important;
     color: #12298E !important;
     font-weight: 590 !important;
 }
@@ -46,8 +61,11 @@
 }
 
 #tabs-toolbar {	   
-/*    background-color: #E7F7FE !important;   /**/
-/*    color: black !important;  */
+    background: rgba(18,104,190,.6)
+                  linear-gradient(rgba(170,232,252,.8), rgba(47,141,235,.7) 49%,
+                                                      rgba(32,133,234,.6) 51%, rgba(20,114,208,.5)) !important;
+    text-shadow: none !important;
+    color: #12298E !important;
 }
 
 #tabs-toolbar .tabmail-tab[selected=true] { 
@@ -85,7 +103,11 @@
 } 
 
 #tabs-toolbar .tabmail-tab:not([selected=true]):hover {
-    color: #F8F9FA !important;;
+    background-color: #07B8F3 !important;
+    background: rgba(253,254,255,.4)
+                  linear-gradient(rgba(242,243,244,.8), rgba(163,229,251,.7) 30%,
+                                                      rgba(117,216,248,.7) 60%, rgba(106,212,248,.7)) !important;
+    color: #000000 !important;;
     font-weight: 500 !important;
     text-shadow: none !important;
  }
@@ -194,10 +216,10 @@ treechildren::-moz-tree-twisty {
     margin-left: 4px !important;
     border-top: 1px solid #FFFFFF !important;
     border-left: 1px solid #FFFFFF !important;
-    border-right: 1px solid #000000 !important;
-    border-bottom: 1px solid #000000 !important;
-    border-radius: 4px 4px 4px 4px !important;
-    background-color: #E2F0FE !important;
+    border-right: 2px solid #000000 !important;
+    border-bottom: 2px solid #000000 !important;
+    border-radius: 0px 0px 0px 0px !important;
+    background-color: #DAF5FE !important;
 }
 
 treechildren::-moz-tree-image(folderNameCol) {
@@ -303,6 +325,10 @@ treechildren::-moz-tree-image(folderNameCol) {
     padding-left: 4px !important;
 }
 
+.reminder-icon {
+    fill: #0000FF !important;
+}
+
 #button-save, #saveandcloseButton,
 #button-saveandclose, #acceptButton {
     fill: darkgreen !important;
@@ -346,11 +372,11 @@ calendar-day-label {
 .calendar-day-label-name[relation="today"],
 .calendar-day-label-name[relation="today1day"] {
     color: #0000FF !Important;
-    background: rgba(255,255,255,.7)
-                  linear-gradient(rgba(252,253,254,.8), rgba(243,244,245,.7),
-                                                      rgba(213,216,217,.6), rgba(193,194,195,.5)) !important;
-    border-top: 1px solid white !important;
-    border-bottom: 1px solid #C1C2C3 !important;
+    background: rgba(255,255,255,0.9)
+                  linear-gradient(rgba(252,253,254,.9), rgba(243,244,245,.7),
+                                                      rgba(213,216,217,.7), rgba(193,194,195,.6)) !important;
+    border-top: 0px solid white !important;
+    border-bottom: 0px solid #C1C2C3 !important;
     padding-left: 30px !important;
     padding-right: 30px !important;
 }
@@ -359,24 +385,29 @@ window {
     --viewColor: #000000 !important;
     --viewBackground: #C8D8F0 !important;
     --viewBorderColor: #6E86B0 !important;
-    --viewTodayBorderColor: #8B9EBF !important;
+    --viewTodayBorderColor: #6E86B0 !important;
     --viewTodayBackground: #FEE2E2 !important;
     --viewTodayOffBackground: #FFC0C0 !important;
 /*    --viewHeaderSelectedBackground: red !important;  */
-    --viewTimeBoxColor: #000000 !important;
+    --viewTimeBoxColor: #3D4D57 !important;
 }
 
 .calendar-time-bar-box-odd,
 .calendar-time-bar-box-even {
     font-weight: 600 !important;
-    background-color: #FBD06B !important;
-    border-top: 1px solid #000000 !important;
+    background-color: #FDD06C !important;
+    border-top: 1px solid #3D4D57 !important;
+}
+
+#view-deck {
+    background-color: #FDD06C !important;
 }
 
 .calendar-event-details-core.title-desc,
 .calendar-event-details-core.location-desc {
     text-shadow: none !important;
-    font-size: 14px !important;
+    font-family: "Arial Narrow" !important;
+    font-size: 11pt !important;
     color: #000000 !important;
     font-weight: 500 !important;
 }
@@ -418,10 +449,6 @@ tab[calview][selected="true"] {
     background-color: #FFFFFF !important;
 }
 
-.reminder-icon {
-    fill: #0000FF !important;
-}
-
 minimonth {
     background-color: #FBD06B !important;
     border-top: 2px solid #FEF6E2 !important;
@@ -443,10 +470,6 @@ minimonth {
 .view-header {
     color: #000000 !important; 
     font-weight: 600 !important;
-}
-
-#view-deck {
-    background-color: #FBD06B !important;
 }
 
 .navigation-inner-box > hbox {
@@ -516,7 +539,9 @@ modehbox:hover {
 }
 
 toolbarbutton[todaypane="true"] {
-    background-color: #2085EA !important;
+    background-color: #E2F0FE !important;
+    color: #12298E !important;
+    font-weight: 600 !important;
 }
 
 minimonth-header {
@@ -684,9 +709,20 @@ calendar-list-tree {
     fill: #0000FF !important;
 }
 
+#appmenu_print:hover,
+#appmenu_print_popup:hover,
+.appmenu-edit-button:hover {
+    fill: #FFFFFF !important;
+}
+
 #appmenu-cut,
 #appmenu-editmenu-cut {
     fill: #BC0030 !important;
+}
+
+#appmenu-cut:hover,
+#appmenu-editmenu-cut:hover {
+    fill: #FFFFFF !important;
 }
 
 #appmenu-copy,
@@ -694,20 +730,48 @@ calendar-list-tree {
     fill: darkgreen !important;
 }
 
+#appmenu-copy:hover,
+#appmenu-editmenu-copy:hover {
+    fill: #FFFFFF !important;
+}
+
 #appmenu-paste,
 #appmenu-editmenu-paste {
     fill: #0000FF !important;
 }
 
+#appmenu-paste:hover,
+#appmenu-editmenu-paste:hover {
+    fill: #FFFFFF !important;
+}
+
 #appmenu-quit {
-    fill: red !important;
+    fill: #BC0030 !important;
+}
+
+#appmenu-quit:hover {
+    fill: #FFFFFF !important;
 }
 
 #appmenu_addons {
     background-color: #D8EFFE !important;
 }
 
+.snooze-popup-ok-button {
+    fill: darkgreen !important;
+}
 
+.snooze-popup-ok-button:hover {
+    fill: white !important;
+}
+
+.snooze-popup-cancel-button {
+    fill: red !important;
+}
+
+.snooze-popup-cancel-button:hover {
+    fill: white !important;
+}
 
 /*___________________________________________*/
 
