@@ -10,6 +10,8 @@
 #status-bar,
 #compose-toolbox,
 #ab-toolbox,
+#CardViewBox,
+#CardTitle,
 #tabs-toolbar .tab-text,
 #tabs-toolbar .tabmail-tab[selected=true],
 #tabs-toolbar .tabmail-tab:not([selected=true]),
@@ -23,29 +25,35 @@
 }
 
 #status-bar {
-    background: rgba(18,104,190,.6)
+    background: rgba(18,104,190,.8)
                   linear-gradient(rgba(170,232,252,.8), rgba(47,141,235,.7) 49%,
                                                       rgba(32,133,234,.6) 51%, rgba(20,114,208,.5)) !important;
+    height: 24px !important;
     text-shadow: none !important;
-    color: white !important;
+    color: #FAFBFC !important;
     font-weight: 500 !important;
 }
 
 /* This is the menubar */
 #mail-toolbar-menubar2 {
-    background-color: #1E63B2 !important;
-    background: rgba(18,104,190,.6)
+    background: rgba(18,104,190,.8)
                   linear-gradient(rgba(170,232,252,.8), rgba(47,141,235,.7) 49%,
                                                       rgba(32,133,234,.6) 51%, rgba(20,114,208,.5)) !important;
-    color: white !important;
+    height: 28px !important;
+    padding-top: 4px !important;
+    margin-top: -1px !important;
     text-shadow: none !important;
+    color: #F6F7F8 !important;
 }
 
 #mail-toolbox {	   
-    background-color: #1E63B2 !important;
-    background: rgba(18,104,190,.6)
+/*    background: rgba(18,104,190,.6)
                   linear-gradient(rgba(170,232,252,.8), rgba(47,141,235,.7) 49%,
                                                       rgba(32,133,234,.6) 51%, rgba(20,114,208,.5)) !important;
+*/
+    background: rgba(224,224,224,.4)
+                  linear-gradient(rgba(170,232,252,.8), rgba(47,141,235,.6) 49%,
+                                                      rgba(32,133,234,.6) 51%, rgba(20,114,208,.3)) !important;
     color: #12298E !important;
     font-weight: 590 !important;
 }
@@ -61,11 +69,15 @@
 }
 
 #tabs-toolbar {	   
-    background: rgba(18,104,190,.6)
+/*    background: rgba(18,104,190,.8)
                   linear-gradient(rgba(170,232,252,.8), rgba(47,141,235,.7) 49%,
                                                       rgba(32,133,234,.6) 51%, rgba(20,114,208,.5)) !important;
+*/
+    background-color: #2085EA !important;
+    height: 34px !important;
+    margin-top: -1px !important;
     text-shadow: none !important;
-    color: #12298E !important;
+    color: black !important;
 }
 
 #tabs-toolbar .tabmail-tab[selected=true] { 
@@ -89,11 +101,11 @@
 }     
 
 #tabs-toolbar .tabmail-tab:not([selected=true]) { 
-    color: #F8F9FA !important;
+    color: #F6F7F8 !important;
     font-weight: 500 !important;
-    background: rgba(18,104,190,.05)
-                  linear-gradient(rgba(170,232,252,.8), rgba(47,141,235,.6) 49%,
-                                                      rgba(32,133,234,.6) 51%, rgba(20,114,208,.3)) !important;
+    background: rgba(18,104,190,.4)
+                  linear-gradient(rgba(170,232,252,.8), rgba(47,141,235,.6) 44%,
+                                                      rgba(32,133,234,.5) 50%, rgba(20,114,208,.4)) !important;
     margin-left: 1px !important;
     margin-right: 0px !important;
     border-radius: 9px 9px 0px 0px !important;
@@ -248,7 +260,6 @@ treechildren::-moz-tree-image(folderNameCol) {
     border: 2px solid #465966 !important;
 }
 
-
 /* ______Message Content Pane Items_____*/
 
 #msgHeaderView {
@@ -303,7 +314,7 @@ treechildren::-moz-tree-image(folderNameCol) {
 /* ______ Calendar Tweaks ______*/
 
 #calendar-toolbox {	   
-    background: rgba(224,224,224,.6)
+    background: rgba(224,224,224,.4)
                   linear-gradient(rgba(170,232,252,.8), rgba(47,141,235,.6) 49%,
                                                       rgba(32,133,234,.6) 51%, rgba(20,114,208,.3)) !important;
     color: #12298E !important;
@@ -367,6 +378,8 @@ calendar-list-tree > tree > treechildren {
 calendar-day-label {
     background-color: #FED4D4 !important;
     color: #0000D0 !important;
+    line-height: 30px !important;
+    padding-top: 1px !important;
 }
 
 .calendar-day-label-name[relation="today"],
@@ -379,7 +392,15 @@ calendar-day-label {
     border-bottom: 0px solid #C1C2C3 !important;
     padding-left: 30px !important;
     padding-right: 30px !important;
+    line-height: 30px !important;
+    padding-top: 1px !important;
 }
+
+/*
+.calendar-event-column-linebox[off-time="true"] {
+    background-color: #A5BFE7 !important;
+}
+*/
 
 window {
     --viewColor: #000000 !important;
@@ -388,6 +409,8 @@ window {
     --viewTodayBorderColor: #6E86B0 !important;
     --viewTodayBackground: #FEE2E2 !important;
     --viewTodayOffBackground: #FFC0C0 !important;
+    --viewDayBoxOffSelectedBackground: #FCF5A4 !important;
+    --viewOffTimeBackground: #A5BFE7 !important;
 /*    --viewHeaderSelectedBackground: red !important;  */
     --viewTimeBoxColor: #3D4D57 !important;
 }
@@ -633,7 +656,28 @@ calendar-list-tree {
 
 #CardViewBox {
     background-color: #E6EAE4 !important;
+    text-shadow: none !important;
     color: #12298E !important;
+    font-weight: 500 !important;
+}
+
+#CardTitle {
+    background: rgba(18,104,190,.8)
+                  linear-gradient(rgba(170,232,252,.8), rgba(47,141,235,.7) 49%,
+                                                      rgba(32,133,234,.6) 51%, rgba(20,114,208,.5)) !important;
+    text-shadow: none !important;
+    height: 30px !important;
+    line-height: 26px !important;
+    padding-left: 10px !important;
+    text-shadow: none !important;
+    font-family: "Century Gothic" !important;
+    font-size: 14pt !important;
+    color: #FFFFFF !important;
+    font-weight: 600 !important;
+    border-bottom: none !important;
+    margin-top: -2px !important;
+    margin-left: -8px !important;
+    margin-right: -8px !important;
 }
 
 /*______Hide Scrollbars Only On Email Tab_______*/
@@ -766,7 +810,7 @@ calendar-list-tree {
 }
 
 .snooze-popup-cancel-button {
-    fill: red !important;
+    fill: #BC0030 !important;
 }
 
 .snooze-popup-cancel-button:hover {
