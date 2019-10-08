@@ -2,7 +2,7 @@
 
 /*_General, Mail Tab, And Other Tabs Configuration_*/
 
- /* remove top toolbar shadows */
+ /* remove menu and toolbar text shadows */
 #mail-toolbox,
 .mail-toolbox,
 #mail-toolbar-menubar2,
@@ -31,22 +31,20 @@
                                                       rgba(32,133,234,.5) 50%, rgba(20,114,208,.4)) !important;
     height: 28px !important;
     padding-top: 3px !important;
-    margin-top: -1px !important;
     text-shadow: none !important;
     color: #F6F7F8 !important;
     border-top: 2px solid #1571CC !important;
 }
 
 #mail-toolbox {	   
-/*    background: rgba(18,104,190,.6)
-                  linear-gradient(rgba(170,232,252,.8), rgba(47,141,235,.7) 49%,
-                                                      rgba(32,133,234,.6) 51%, rgba(20,114,208,.5)) !important;
-*/
     background: rgba(224,224,224,.4)
                   linear-gradient(rgba(170,232,252,.8), rgba(47,141,235,.6) 49%,
                                                       rgba(32,133,234,.6) 51%, rgba(20,114,208,.3)) !important;
     color: #12298E !important;
     font-weight: 590 !important;
+    height: 28px !important;
+    line-height: 24px !important;
+    border: 0px solid transparent !important;
 }
 
 #mail-toolbox toolbarbutton {
@@ -56,17 +54,13 @@
     border-top: 1px solid #FFFFFF !important;
     border-left: 1px solid #FFFFFF !important;
     border-right: 1px solid #000000 !important;
-    border-bottom: 1px solid #000000 !important;
 }
 
 #tabs-toolbar {	   
-/*    background: rgba(18,104,190,.8)
-                  linear-gradient(rgba(170,232,252,.8), rgba(47,141,235,.7) 49%,
-                                                      rgba(32,133,234,.6) 51%, rgba(20,114,208,.5)) !important;
-*/
-    background-color: #2582DE!important;
+/*   background-color: #2D86DF !important;  */
+    background: linear-gradient(rgba(0, 0, 99, .2), rgba(0, 0, 99, .3)) !important;
     height: 34px !important;
-    margin-top: -1px !important;
+    margin: -2px !important;
     text-shadow: none !important;
     color: black !important;
 }
@@ -77,11 +71,7 @@
     color: black !important;
     text-decoration: underline solid #000000 !important;
     background-color: #07B8F3  !important;
-/*    background: rgba(158,227,250,.9)
-                  linear-gradient(rgba(185,235,252,.95), rgba(158,227,250,.7) 30%,
-                                                      rgba(106,212,248,.6) 50%, rgba(33,192,245,.6)) !important;
-*/   
- margin-left: 1px !important;
+    margin-left: 0px !important;
     margin-right: 0px !important;
     border-radius: 9px 9px 0px 0px !important;
     border: 1px solid #759AB3 !important;
@@ -96,12 +86,12 @@
 }     
 
 #tabs-toolbar .tabmail-tab:not([selected=true]) { 
-    color: #F6F7F8 !important;
+    color: #FFFFFF !important;
     font-weight: 500 !important;
-    background: rgba(18,104,190,.6)
-                  linear-gradient(rgba(170,232,252,.8), rgba(47,141,235,.6) 45%,
-                                                      rgba(32,133,234,.5) 50%, rgba(20,114,208,.4)) !important;
-    margin-left: 1px !important;
+    background: rgba(74,99,116,.4)
+                  linear-gradient(rgba(202,214,222,.9), rgba(150,173,188,.6) 33%,
+                                                      rgba(112,143,164,.5) 50%, rgba(74,99,116,.6)) !important;
+    margin-left: 0px !important;
     margin-right: 0px !important;
     border-radius: 9px 9px 0px 0px !important;
     border: 1px solid #2D6799 !important;
@@ -110,9 +100,9 @@
 } 
 
 #tabs-toolbar .tabmail-tab:not([selected=true]):hover {
-    background: rgba(158,227,250,.9)
-                  linear-gradient(rgba(185,235,252,.95), rgba(158,227,250,.7) 30%,
-                                                      rgba(106,212,248,.6) 50%, rgba(33,192,245,.6)) !important;
+    background: rgba(131,220,249,.9)
+                  linear-gradient(rgba(238,240,242,.8), rgba(131,220,249,.8) 36%,
+                                                      rgba(87,207,247,.7) 53%, rgba(20,188,244,.6)) !important;
     color: #000000 !important;;
     font-weight: 580 !important;
     text-shadow: none !important;
@@ -126,6 +116,10 @@
 #quick-filter-bar-main-bar {
     background-color: #465966 !important;
     color: #FFFFFF !important;
+    height: 30px !important;
+    background: linear-gradient(to right, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),
+           url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/QFBBackground3.png") !important;
+    margin-left: 4px !important;
     border: 0px solid transparent !important;
 }
 
@@ -174,20 +168,29 @@
 } 
 
 #threadTree { 
-    margin-left: 6px !important;
+    margin-left: 4px !important;
     margin-right: 4px !important;
+    border: 0px solid transparent !important;
+    border-top: 3px solid #465966 !important;
 }
 
 #folderTree { 
     background-color: #465966 !important; 
+/*    background-image: url("file:///C:/temp/Brick10.png") !important;  */
+
+    background: linear-gradient(rgba(17, 90, 169, .6), rgba(14, 73, 136, .6)),
+           url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/FolderTreeBackground4.png") !important;
+
     color: #FFFFFF !important; 
     font-weight: 500 !important;
     border: 0px solid transparent !important;
     margin-top: -1px !important;
+    border: 0px solid #465966 !important;
 } 
 
 #folderTree > treechildren::-moz-tree-row(hover) { 
-    background-color: #2085EA !important; 
+/*    background-color: #1F7CDB !important;   */
+    background-color: #BC0030 !important;
     border: 0px solid transparent !important;
     margin-left: 4px !important;
     margin-right: 4px !important;
@@ -234,6 +237,7 @@ treechildren::-moz-tree-image(folderNameCol) {
     background-position: left center !important;
     background-repeat: no-repeat !important;
     opacity: 0 !important;
+    border: 0px solid #465966 !important;
 }
 
 #threadpane-splitter {
@@ -259,6 +263,7 @@ treechildren::-moz-tree-image(folderNameCol) {
 #msgHeaderView {
     background-color: #D8EFFE !important; 
     border: 0px solid transparent !important;
+    border-top: 3px solid #465966 !important;
 }
 
 /*_Write Message Window Tweaks_*/
@@ -318,6 +323,8 @@ treechildren::-moz-tree-image(folderNameCol) {
                                                       rgba(32,133,234,.6) 51%, rgba(20,114,208,.3)) !important;
     color: #12298E !important;
     font-weight: 600 !important;
+    height: 28px !important;
+    line-height: 24px !important;
 }
 
 #calendar-toolbox toolbarbutton {
@@ -362,7 +369,12 @@ treechildren::-moz-tree-image(folderNameCol) {
 }
 
 calendar-list-tree > tree > treechildren {
-    background-color: #FEF6E2 !important;
+/*   background-color: #FEF6E2 !important;  */
+
+/*    background: linear-gradient(rgba(249, 207, 207, .8), rgba(249, 207, 207, .6), rgba(249, 207, 207, .5)),  */
+    background: linear-gradient(rgba(254, 246, 226, .9), rgba(253, 238, 201, .8), rgba(253, 238, 201, .7)),
+           url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/CalendarBackground.png") !important;
+
     color: #12298E !important; 
 }
 
@@ -403,13 +415,15 @@ calendar-day-label {
 
 window {
     --viewColor: #000000 !important;
-    --viewBackground: #C8D8F0 !important;
+/*    --viewBackground: #C8D8F0 !important; */
+    --viewBackground: #E6EAE4 !important;
     --viewBorderColor: #6E86B0 !important;
     --viewTodayBorderColor: #6E86B0 !important;
     --viewTodayBackground: #FEE2E2 !important;
-    --viewTodayOffBackground: #FFC0C0 !important;
+    --viewTodayOffBackground: #FFC0C0 !important; 
     --viewDayBoxOffSelectedBackground: #FCF49C !important;
-    --viewOffTimeBackground: #A5BFE7 !important;
+/*    --viewOffTimeBackground: #A5BFE7 !important; */
+    --viewOffTimeBackground: #D0D8CB !important;
     --viewTimeBoxColor: #3D4D57 !important;
 }
 
@@ -583,6 +597,33 @@ minimonth-header toolbarbutton:hover {
     background-color: #FFFFFF !important;
 }
 
+.minimonth-row-body .minimonth-day[selected="true"] {
+    background-color: #FFFCD8 !important;
+    font-weight: 600 !important;
+    border: 1px solid #000000 !important;
+}
+
+.minimonth-row-body .minimonth-day:not([othermonth="true"]) {
+    color: #12298E !important;
+}
+
+.minimonth-row-body .minimonth-day[today="true"] {
+    background-color: #FEE2E2 !important;
+    color: #000000 !important;
+    font-weight: 600 !important;
+    border: 1px solid #BC0030 !important;
+}
+
+.minimonth-row-body .minimonth-day[othermonth="true"] {
+    background-color: #D0D8CB !important;
+    color: #12298E !important;
+}
+
+.minimonth-row-body .minimonth-day:hover {
+    background-color: #BC0030 !important;
+    color: #FFFFFF !important;
+}
+
 .today-subpane toolbarbutton {
     background-color: #E0E0E0 !important;
     color: #12298E !important;
@@ -630,6 +671,7 @@ calendar-list-tree {
     color: #12298E !important;
     font-weight: 600 !important;
     text-shadow: none !important;
+    height: 32px !important;
 }
 
 #ab-toolbox toolbarbutton {
@@ -644,6 +686,8 @@ calendar-list-tree {
 /*  Addressbook Contacts Groups - List */
 #dirTree {
     background-color: #D0D8CB !important;
+    background:  /*  linear-gradient(rgba(205, 214, 202, .95), rgba(205, 214, 202, .8), rgba(205, 214, 202, .7), rgba(205, 214, 202, .6), rgba(205, 214, 202, .5)),   */
+      url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/AddressBookBackground7.png") !important;
 }
 
 #dirTree-splitter {
@@ -659,17 +703,29 @@ calendar-list-tree {
     font-weight: 500 !important;
 }
 
+/*
+#abResultsTree {
+    color: red !important;
+}
+*/
+
+/*
+#abResultsTree > treechildren::-moz-tree-row {
+    background-color: red !important;
+}
+*/
+
 #CardTitle {
     background: rgba(18,104,190,.8)
                   linear-gradient(rgba(170,232,252,.8), rgba(47,141,235,.7) 49%,
                                                       rgba(32,133,234,.6) 51%, rgba(20,114,208,.5)) !important;
     text-shadow: none !important;
-    height: 30px !important;
-    line-height: 26px !important;
+    height: 28px !important;
+    line-height: 25px !important;
     padding-left: 10px !important;
     text-shadow: none !important;
     font-family: "Century Gothic" !important;
-    font-size: 14pt !important;
+    font-size: 12pt !important;
     color: #FFFFFF !important;
     font-weight: 600 !important;
     border-bottom: none !important;
@@ -726,16 +782,12 @@ calendar-list-tree {
 
 #folderTree { 
     margin-right: 0px !important;
+    border: 0px solid #465966 !important;
 } 
 
 #folderpane_splitter {
     width: 2px !important;
     background-color: #465966 !important;
-    border: 0px solid transparent !important;
-}
-
-#quick-filter-bar-main-bar {
-    margin-left: -1px !important;
     border: 0px solid transparent !important;
 }
 
