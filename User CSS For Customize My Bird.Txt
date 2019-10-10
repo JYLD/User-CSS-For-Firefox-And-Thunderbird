@@ -30,18 +30,21 @@
                   linear-gradient(rgba(170,232,252,.8), rgba(47,141,235,.6) 45%,
                                                       rgba(32,133,234,.5) 50%, rgba(20,114,208,.4)) !important;
     height: 28px !important;
-    padding-top: 3px !important;
+    margin-bottom: 2px !important;
     text-shadow: none !important;
     color: #F6F7F8 !important;
     border-top: 2px solid #1571CC !important;
+}
+
+/* Remove disabled toolbar buttons until enabled */
+toolbarbutton[disabled="true"] {
+    display: none !important;
 }
 
 #mail-toolbox {	   
     background: rgba(224,224,224,.4)
                   linear-gradient(rgba(170,232,252,.8), rgba(47,141,235,.6) 49%,
                                                       rgba(32,133,234,.6) 51%, rgba(20,114,208,.3)) !important;
-    color: #12298E !important;
-    font-weight: 590 !important;
     height: 28px !important;
     line-height: 24px !important;
     border: 0px solid transparent !important;
@@ -54,13 +57,18 @@
     border-top: 1px solid #FFFFFF !important;
     border-left: 1px solid #FFFFFF !important;
     border-right: 1px solid #000000 !important;
+    color: #12298E !important;
+    font-weight: 600 !important;
+    font-size: 10pt !important;
+    font-family: "Archivo Narrow" !important;
 }
 
 #tabs-toolbar {	   
 /*   background-color: #2D86DF !important;  */
     background: linear-gradient(rgba(0, 0, 99, .2), rgba(0, 0, 99, .3)) !important;
-    height: 34px !important;
-    margin: -2px !important;
+    height: 32px !important;
+    padding-top: 7px !important;
+    margin-top: -1px !important;
     text-shadow: none !important;
     color: black !important;
 }
@@ -121,6 +129,8 @@
            url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/QFBBackground3.png") !important;
     margin-left: 4px !important;
     border: 0px solid transparent !important;
+    font-size: 10pt !important;
+    font-family: "Arial Narrow" !important;
 }
 
 /* _Mail Folder Tree And Email Thread Tree_ */
@@ -176,11 +186,8 @@
 
 #folderTree { 
     background-color: #465966 !important; 
-/*    background-image: url("file:///C:/temp/Brick10.png") !important;  */
-
     background: linear-gradient(rgba(17, 90, 169, .6), rgba(14, 73, 136, .6)),
            url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/FolderTreeBackground4.png") !important;
-
     color: #FFFFFF !important; 
     font-weight: 500 !important;
     border: 0px solid transparent !important;
@@ -281,8 +288,9 @@ treechildren::-moz-tree-image(folderNameCol) {
 #compose-toolbox toolbarbutton {
     text-shadow: none !important;    
     color: #12298E !important;
-    font-weight: 590 !important;
-/*    background-color: rgba(255,255,255,.7) !important;  */
+    font-weight: 600 !important;
+    font-size: 10pt !important;
+    font-family: "Archivo Narrow" !important;
     background: rgba(255,255,255,.95)
                   linear-gradient(rgba(253,254,255,.8), rgba(243,244,245,.8),
                                                       rgba(213,216,217,.6), rgba(193,194,195,.6)) !important;
@@ -390,7 +398,9 @@ calendar-day-label {
     background-color: #FED4D4 !important;
     color: #0000D0 !important;
     line-height: 30px !important;
-    padding-top: 1px !important;
+    padding-top: 2px !important;
+    font-size: 11pt !important;
+    font-family: "Archivo Narrow" !important;
 }
 
 .calendar-day-label-name[relation="today"],
@@ -554,7 +564,7 @@ minimonth {
 }
 
 /* Background Around MiniCalendar On Left */
-/*modevbox {
+/*  modevbox {
     background-color: red !important;
 }
 */
@@ -709,11 +719,13 @@ calendar-list-tree {
 }
 */
 
-/*
-#abResultsTree > treechildren::-moz-tree-row {
-    background-color: red !important;
+#abResultsTree > treechildren::-moz-tree-row(selected) {
+    background-color: #FFD0F8 !important; 
 }
-*/
+
+#abResultsTree > treechildren::-moz-tree-row(selected, focus) {
+    background-color: highlight !important; 
+}
 
 #CardTitle {
     background: rgba(18,104,190,.8)
@@ -876,7 +888,156 @@ calendar-list-tree {
     height: 26px !important;
     text-shadow: none !important;
     color: #FAFBFC !important;
+    font-size: 10pt !important;
+    font-family: "Arial Narrow" !important;
     font-weight: 500 !important;
+}
+
+/*_UI Font Choices_*/
+
+menu, menulist, menuitem { 
+    font-size: 14px !important;
+    font-family: "Archivo Narrow" !important;
+}
+
+#folderTree > treechildren {
+    font-size: 10pt !important;
+    font-family: "Arial Narrow" !important;
+}
+
+#threadTree > treechildren {
+    font-size: 10pt !important;
+    font-family: "Arial Narrow" !important;
+}
+
+#tabs-toolbar {	   
+    font-size: 10pt !important;
+    font-family: "Archivo Narrow" !important;
+}
+
+#calendar-toolbox {
+    font-size: 10pt !important;
+    font-family: "Roboto Condensed" !important;
+}
+
+#calendar-view-box #event-filter-menulist {	   
+    font-size: 10pt !important;
+    font-family: "Arial Narrow" !important;
+}
+
+#calendar-view-box #unifinder-searchBox {	   
+    font-size: 11pt !important;
+    font-family: "Arial" !important;
+}
+
+#calendar-view-box #unifinder-search-results-tree { 	   
+    font-size: 10pt !important;
+    font-family: "Arial Narrow" !important;
+}
+
+#ab-toolbox toolbarbutton {
+    font-size: 10pt !important;
+    font-family: "Roboto Condensed" !important;
+}
+
+#dirTree > treechildren {
+    font-size: 10pt !important;
+    font-family: "Roboto Condensed" !important;
+}
+
+#abResultsTree  > treechildren {
+    font-size: 11pt !important;
+    font-family: "Archivo Narrow" !important;
+}
+
+#agenda-listbox #today-header, #tomorrow-header, #nextweek-header {
+    background-color: #FEF6E2 !important;
+    background: linear-gradient(to right, rgba(255, 255, 0, .2), rgba(69, 177, 249, .3)),
+           url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/Stone G.bmp") !important;
+    color: #12298E !important;
+    text-decoration: underline !important;
+}
+
+#abResultsTreeCols {
+    font-size: 11pt !important;
+    font-family: "Archivo Narrow" !important;
+}
+
+#CardViewBox { 
+    font-size: 11pt !important;
+    font-family: "Archivo Narrow" !important;
+}
+
+#msgHeaderView {
+    font-size: 10pt !important;
+    font-family: "Roboto Condensed" !important;
+}
+
+#agenda-listbox {	   
+    background-color: #D8EFFE !important;
+    background: linear-gradient(rgba(0, 0, 0, .05), rgba(0, 0, 0, .3)),
+           url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/FolderTreeBackground3.png") !important;
+    color: #FFFFFF !important;
+    font-size: 10pt !important;
+    font-family: "Roboto Condensed" !important;
+}
+
+#customizemybird_content_box {
+    font-size: 10pt !important;
+    font-family: "Roboto Condensed" !important;
+}    
+
+/* Style ACCOUNT name with no new mail */
+#folderTree > treechildren::-moz-tree-cell-text(isServer-true) {
+    color: #FFFFFF !important;
+    font-weight: bold !important;
+    text-decoration: underline !important;
+    font-size: 10pt !important;
+    font-family: "Archivo Narrow" !important;
+}
+
+/* Style ACCOUNT name with new mail */
+#folderTree > treechildren::-moz-tree-cell-text(isServer-true, biffState-NewMail) {
+    color: #FFFFFF !important;
+    font-weight: bold !important;
+    text-decoration: underline !important;
+    font-size: 10pt !important;
+    font-family: "Archivo Narrow" !important;
+}
+
+#folderTree > treechildren::-moz-tree-cell-text(hasUnreadMessages-true) {
+    color: #00FF00 !important;
+    font-weight: 600 !important;
+}
+
+#folderTree > treechildren::-moz-tree-cell-text(hasUnreadMessages-true, selected) {
+    color: #000000 !important;
+    font-weight: 600 !important;
+}
+
+#folderTree > treechildren::-moz-tree-cell-text(hasUnreadMessages-true, selected, focus) {
+    color: #FFFFFF !important;
+    font-weight: 600 !important;
+}
+
+#folderpane-mode-selector-menulist {
+    background: linear-gradient(to right, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),
+           url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/QFBBackground3.png") !important;
+    color: #FFFFFF !important;
+}
+
+#addresses-box hbox > label {
+    color: #12298E !important;
+    font-size: 10pt !important;
+    font-family: "Roboto Condensed" !important;
+}
+
+vbox {
+    font-family: "Archivo Narrow" !important;
+}
+
+hbox {
+    font-family: "Archivo Narrow" !important;
 }
 
 /*___________________________________________*/
