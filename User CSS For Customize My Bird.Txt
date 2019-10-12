@@ -24,6 +24,11 @@
     text-shadow: none !important;
 }
 
+#customizemybird_content_box {
+    font-size: 11pt !important;
+    font-family: "Arial" !important;
+}    
+
 /* This is the menubar */
 #mail-toolbar-menubar2 {
     background: rgba(18,104,190,.6)
@@ -129,8 +134,50 @@ toolbarbutton[disabled="true"] {
            url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/QFBBackground3.png") !important;
     margin-left: 4px !important;
     border: 0px solid transparent !important;
-    font-size: 10pt !important;
+    font-size: 11pt !important;
     font-family: "Arial Narrow" !important;
+}
+
+#quick-filter-bar-main-bar .textbox-input-box {
+    background-color: #465966 !important;
+    background: linear-gradient(to right, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),
+           url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/QFBBackground3.png") !important;
+    color: #FFFFFF !important;
+    border: 0px solid transparent !important;
+    font-size: 11pt !important;
+    font-family: "Arial Narrow" !important;
+}
+
+#qfb-qs-textbox {
+    background-color: #465966 !important;
+    background: linear-gradient(to right, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),
+           url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/QFBBackground3.png") !important;
+    color: #FFFFFF !important;
+    border: 0px solid transparent !important;
+    font-size: 11pt !important;
+    font-family: "Arial Narrow" !important;
+}
+
+#quick-filter-bar-main-bar .textbox-input:hover {
+    background-color: #FFFFFF !important;
+    color: #0725EB !important;
+    border: 0px solid transparent !important;
+    font-size: 11pt !important;
+    font-family: "Arial Narrow" !important;
+}
+
+#quick-filter-bar-main-bar .textbox-search-clear {
+    background-color: #FFFFFF !important;
+    color: #000000 !important;
+    margin-left: 4px !important;
+    border-top: 2px solid #FFFFFF !important;
+    border-left: 2px solid #FFFFFF !important;
+    border-right: 2px solid #D8EFFE !important;
+    border-bottom: 2px solid #D8EFFE !important;
+}
+
+#qfb-results-label {
+    color: #FFFF00 !important;
 }
 
 /* _Mail Folder Tree And Email Thread Tree_ */
@@ -302,9 +349,10 @@ treechildren::-moz-tree-image(folderNameCol) {
 
 /*_Search Box Tweaks_*/
 
-.searchBox > .textbox-input-box {
-    font-size: 14px !important;
-    font-weight: 600 !important;
+.searchBox .textbox-input-box {
+    font-size: 11pt !important;
+    font-family: "Arial Narrow" !important;
+    color: #072AFF !important;
 }
 
 .searchBox[focused="true"] {
@@ -322,6 +370,29 @@ treechildren::-moz-tree-image(folderNameCol) {
     color: #072AFF !important;
 }
 
+#peopleSearchInput {
+    background: linear-gradient(rgba(132, 195, 239, .7), rgba(62, 142, 225, .8)),
+           url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/QFBBackground3.png") !important;
+    font-size: 11pt !important;
+    font-family: "Arial Narrow" !important;
+}
+
+#peopleSearchInput .textbox-input-box:hover {
+    background-color: #84C3EF !important;
+    color: #0725EB !important;
+    border: 0px solid transparent !important;
+    font-size: 11pt !important;
+    font-family: "Arial Narrow" !important;
+}
+
+#peopleSearchInput .textbox-search-clear {
+    background-color: #FFFFFF !important;
+    color: #000000 !important;
+    border-top: 2px solid #FFFFFF !important;
+    border-left: 2px solid #FFFFFF !important;
+    border-right: 2px solid #D8EFFE !important;
+    border-bottom: 2px solid #D8EFFE !important;
+}
 
 /*_Calendar Tweaks_*/
 
@@ -982,11 +1053,6 @@ menu, menulist, menuitem {
     font-family: "Roboto Condensed" !important;
 }
 
-#customizemybird_content_box {
-    font-size: 10pt !important;
-    font-family: "Roboto Condensed" !important;
-}    
-
 /* Style ACCOUNT name with no new mail */
 #folderTree > treechildren::-moz-tree-cell-text(isServer-true) {
     color: #FFFFFF !important;
@@ -1038,6 +1104,14 @@ vbox {
 
 hbox {
     font-family: "Archivo Narrow" !important;
+}
+
+#msgHeaderView #expandedtagsBox .blc-FF0000 {
+    color: white !important;
+}
+
+#msgHeaderView #expandedtagsBox .blc-3333FF {
+    color: white !important;
 }
 
 /*___________________________________________*/
