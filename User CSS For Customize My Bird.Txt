@@ -966,6 +966,14 @@ calendar-list-tree {
 
 /*_UI Font Choices_*/
 
+/* This sets ALL mail folders to white including the [Gmail] Folder */
+/* Follow this later with specific color and font css settings for */
+/*   specific mail folders  */
+#folderTree > treechildren::-moz-tree-cell-text {
+  color: #FFFFFF !important;
+  font-weight: normal !important;
+}
+
 menu, menulist, menuitem { 
     font-size: 14px !important;
     font-family: "Archivo Narrow" !important;
@@ -1076,6 +1084,17 @@ menu, menulist, menuitem {
     font-weight: 600 !important;
 }
 
+#folderTree > treechildren::-moz-tree-cell-text(selected) {
+    color: #000000 !important;
+    font-weight: bold !important;
+}
+
+#folderTree > treechildren::-moz-tree-cell-text(selected, focus) {
+    color: #FFFFFF !important;
+    font-weight: bold !important;
+}
+
+/*
 #folderTree > treechildren::-moz-tree-cell-text(hasUnreadMessages-true, selected) {
     color: #000000 !important;
     font-weight: 600 !important;
@@ -1085,6 +1104,7 @@ menu, menulist, menuitem {
     color: #FFFFFF !important;
     font-weight: 600 !important;
 }
+*/
 
 #folderpane-mode-selector-menulist {
     background: linear-gradient(to right, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),
