@@ -371,10 +371,11 @@ treechildren::-moz-tree-image(folderNameCol) {
 }
 
 #peopleSearchInput {
-    background: linear-gradient(rgba(132, 195, 239, .7), rgba(62, 142, 225, .8)),
+    background: linear-gradient(rgba(150, 211, 243, .9), rgba(98, 170, 233, .75), rgba(62, 142, 225, .6)),
            url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/QFBBackground3.png") !important;
     font-size: 11pt !important;
     font-family: "Arial Narrow" !important;
+    border: 0px solid transparent !important;
 }
 
 #peopleSearchInput .textbox-input-box:hover {
@@ -966,14 +967,6 @@ calendar-list-tree {
 
 /*_UI Font Choices_*/
 
-/* This sets ALL mail folders to white including the [Gmail] Folder */
-/* Follow this later with specific color and font css settings for */
-/*   specific mail folders  */
-#folderTree > treechildren::-moz-tree-cell-text {
-  color: #FFFFFF !important;
-  font-weight: normal !important;
-}
-
 menu, menulist, menuitem { 
     font-size: 14px !important;
     font-family: "Archivo Narrow" !important;
@@ -1061,7 +1054,13 @@ menu, menulist, menuitem {
     font-family: "Roboto Condensed" !important;
 }
 
-/* Style ACCOUNT name with no new mail */
+/* This sets ALL mail folders to white including the [Gmail] Folder */
+#folderTree > treechildren::-moz-tree-cell-text {
+  color: #FFFFFF !important;
+  font-weight: normal !important;
+}
+
+/* Style Folder Tree Account Names with no new mail */
 #folderTree > treechildren::-moz-tree-cell-text(isServer-true) {
     color: #FFFFFF !important;
     font-weight: bold !important;
@@ -1070,7 +1069,7 @@ menu, menulist, menuitem {
     font-family: "Archivo Narrow" !important;
 }
 
-/* Style ACCOUNT name with new mail */
+/* Style Folder Tree Account Names with new mail */
 #folderTree > treechildren::-moz-tree-cell-text(isServer-true, biffState-NewMail) {
     color: #FFFFFF !important;
     font-weight: bold !important;
@@ -1093,18 +1092,6 @@ menu, menulist, menuitem {
     color: #FFFFFF !important;
     font-weight: bold !important;
 }
-
-/*
-#folderTree > treechildren::-moz-tree-cell-text(hasUnreadMessages-true, selected) {
-    color: #000000 !important;
-    font-weight: 600 !important;
-}
-
-#folderTree > treechildren::-moz-tree-cell-text(hasUnreadMessages-true, selected, focus) {
-    color: #FFFFFF !important;
-    font-weight: 600 !important;
-}
-*/
 
 #folderpane-mode-selector-menulist {
     background: linear-gradient(to right, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),
