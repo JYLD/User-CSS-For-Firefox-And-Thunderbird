@@ -135,7 +135,7 @@ toolbarbutton[disabled="true"] {
     margin-left: 4px !important;
     border: 0px solid transparent !important;
     font-size: 11pt !important;
-    font-family: "Arial Narrow" !important;
+    font-family: "Archivo Narrow" !important;
 }
 
 #quick-filter-bar-main-bar .textbox-input-box {
@@ -145,7 +145,7 @@ toolbarbutton[disabled="true"] {
     color: #FFFFFF !important;
     border: 0px solid transparent !important;
     font-size: 11pt !important;
-    font-family: "Arial Narrow" !important;
+    font-family: "Archivo Narrow" !important;
 }
 
 #qfb-qs-textbox {
@@ -155,7 +155,7 @@ toolbarbutton[disabled="true"] {
     color: #FFFFFF !important;
     border: 0px solid transparent !important;
     font-size: 11pt !important;
-    font-family: "Arial Narrow" !important;
+    font-family: "Archivo Narrow" !important;
 }
 
 #quick-filter-bar-main-bar .textbox-input:hover {
@@ -163,7 +163,7 @@ toolbarbutton[disabled="true"] {
     color: #0725EB !important;
     border: 0px solid transparent !important;
     font-size: 11pt !important;
-    font-family: "Arial Narrow" !important;
+    font-family: "Archivo Narrow" !important;
 }
 
 #quick-filter-bar-main-bar .textbox-search-clear {
@@ -351,7 +351,7 @@ treechildren::-moz-tree-image(folderNameCol) {
 
 .searchBox .textbox-input-box {
     font-size: 11pt !important;
-    font-family: "Arial Narrow" !important;
+    font-family: "Archivo Narrow" !important;
     color: #072AFF !important;
 }
 
@@ -374,7 +374,7 @@ treechildren::-moz-tree-image(folderNameCol) {
     background: linear-gradient(rgba(150, 211, 243, .9), rgba(98, 170, 233, .75), rgba(62, 142, 225, .6)),
            url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/QFBBackground3.png") !important;
     font-size: 11pt !important;
-    font-family: "Arial Narrow" !important;
+    font-family: "Archivo Narrow" !important;
     border: 0px solid transparent !important;
 }
 
@@ -383,7 +383,7 @@ treechildren::-moz-tree-image(folderNameCol) {
     color: #0725EB !important;
     border: 0px solid transparent !important;
     font-size: 11pt !important;
-    font-family: "Arial Narrow" !important;
+    font-family: "Archivo Narrow" !important;
 }
 
 #peopleSearchInput .textbox-search-clear {
@@ -523,8 +523,8 @@ window {
 .calendar-event-details-core.title-desc,
 .calendar-event-details-core.location-desc {
     text-shadow: none !important;
-    font-family: "Arial Narrow" !important;
-    font-size: 11pt !important;
+    font-family: "Archivo Narrow" !important;
+    font-size: 10pt !important;
     color: #000000 !important;
     font-weight: 500 !important;
 }
@@ -549,11 +549,47 @@ tab[calview][selected="true"] {
 
 .today-subpane {
     background-color: #EDEDED !important;
+    background: linear-gradient(to right, rgba(255, 255, 0, .2), rgba(69, 177, 249, .2)),
+           url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/Stone G.bmp") !important;
     color: #12298E !important;
 }
 
-#todaypane-new-event-button {
+.today-subpane .miniday-nav-buttons {
     background-color: #EDEDED !important;
+    background: linear-gradient(to right, rgba(255, 255, 0, .2), rgba(69, 177, 249, .2)),
+           url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/Stone G.bmp") !important;
+    color: #12298E !important;
+}
+
+.today-subpane .miniday-nav-buttons:hover {
+    background: #FFFFFF !important;
+    color: #0000FF !important;
+}
+
+#miniday-dropdown-button {
+    background-color: #EDEDED !important;
+    background: linear-gradient(to right, rgba(255, 255, 0, .2), rgba(69, 177, 249, .2)),
+           url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/Stone G.bmp") !important;
+    color: #12298E !important;
+}
+
+#miniday-dropdown-button:hover {
+    background: #FFFFFF !important;
+    color: #0000FF !important;
+}
+
+#agenda-toolbar {
+    background-color: #EDEDED !important;
+    background: linear-gradient(to right, rgba(255, 255, 0, .2), rgba(69, 177, 249, .3)),
+           url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/Stone G.bmp") !important;
+    margin-top: -2px !important;
+    margin-bottom: -2px !important;
+}
+
+#todaypane-new-event-button {
+    background-color: #FBD06B !important;
+    background: linear-gradient(to right, rgba(255, 255, 0, .2), rgba(69, 177, 249, .3)),
+           url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/Stone G.bmp") !important;
     color: #12298E !important;
     font-weight: 600 !important;
     border-top: 1px solid #FFFFFF !important;
@@ -563,7 +599,8 @@ tab[calview][selected="true"] {
 }
 
 #todaypane-new-event-button:hover {
-    background-color: #FFFFFF !important;
+    background: #FFFFFF !important;
+    color: #0000FF !important;
 }
 
 minimonth {
@@ -968,22 +1005,22 @@ calendar-list-tree {
 /*_UI Font Choices_*/
 
 menu, menulist, menuitem { 
-    font-size: 14px !important;
+    font-size: 11pt !important;
     font-family: "Archivo Narrow" !important;
 }
 
 #folderTree > treechildren {
-    font-size: 10pt !important;
-    font-family: "Arial Narrow" !important;
+    font-size: 11pt !important;
+    font-family: "Archivo Narrow" !important;
 }
 
 #threadTree > treechildren {
-    font-size: 10pt !important;
-    font-family: "Arial Narrow" !important;
+    font-size: 11pt !important;
+    font-family: "Archivo Narrow" !important;
 }
 
 #tabs-toolbar {	   
-    font-size: 10pt !important;
+    font-size: 11pt !important;
     font-family: "Archivo Narrow" !important;
 }
 
@@ -999,12 +1036,12 @@ menu, menulist, menuitem {
 
 #calendar-view-box #unifinder-searchBox {	   
     font-size: 11pt !important;
-    font-family: "Arial" !important;
+    font-family: "Archivo Narrow" !important;
 }
 
 #calendar-view-box #unifinder-search-results-tree { 	   
-    font-size: 10pt !important;
-    font-family: "Arial Narrow" !important;
+    font-size: 11pt !important;
+    font-family: "Archivo Narrow" !important;
 }
 
 #ab-toolbox toolbarbutton {
@@ -1041,8 +1078,22 @@ menu, menulist, menuitem {
 }
 
 #msgHeaderView {
-    font-size: 10pt !important;
+    font-size: 11pt !important;
     font-family: "Roboto Condensed" !important;
+}
+
+#msgHeaderView .headerName {
+    color: #12298E !important;
+    font-size: 11pt !important;
+    font-family: "Roboto Condensed" !important;
+}
+
+#msgHeaderView #expandedtagsBox .blc-FF0000 {
+    color: white !important;
+}
+
+#msgHeaderView #expandedtagsBox .blc-3333FF {
+    color: white !important;
 }
 
 #agenda-listbox {	   
@@ -1065,8 +1116,8 @@ menu, menulist, menuitem {
     color: #FFFFFF !important;
     font-weight: bold !important;
     text-decoration: underline !important;
-    font-size: 10pt !important;
-    font-family: "Archivo Narrow" !important;
+    font-size: 11pt !important;
+    font-family: "Roboto Condensed" !important;
 }
 
 /* Style Folder Tree Account Names with new mail */
@@ -1074,8 +1125,8 @@ menu, menulist, menuitem {
     color: #FFFFFF !important;
     font-weight: bold !important;
     text-decoration: underline !important;
-    font-size: 10pt !important;
-    font-family: "Archivo Narrow" !important;
+    font-size: 11pt !important;
+    font-family: "Roboto Condensed" !important;
 }
 
 #folderTree > treechildren::-moz-tree-cell-text(hasUnreadMessages-true) {
@@ -1111,14 +1162,6 @@ vbox {
 
 hbox {
     font-family: "Archivo Narrow" !important;
-}
-
-#msgHeaderView #expandedtagsBox .blc-FF0000 {
-    color: white !important;
-}
-
-#msgHeaderView #expandedtagsBox .blc-3333FF {
-    color: white !important;
 }
 
 /*___________________________________________*/
