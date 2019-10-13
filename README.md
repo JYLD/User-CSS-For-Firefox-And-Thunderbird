@@ -28,3 +28,7 @@ To turn on the title bar in Firefox or Thunderbird set the this value in about:c
 browser.tabs.drawInTitlebar = false
 
 You can contact JYLD at g a r y AT g a r y b r i t t DOT c o m (delete spaces and make substitutions).
+
+UPDATE:
+
+If you implement the latest version of my CSS for CMB or in a userChrome.css file and if you use a Thunderbird theme like I am currently using Blue-FK by Fantastic King https://addons.thunderbird.net/en-US/thunderbird/addon/blue-fk/?src=userprofile then you don't need to have Theme & Font Size Changer installed at all.
