@@ -1084,7 +1084,8 @@ menu, menulist, menuitem {
 
 #msgHeaderView .headerName {
     color: #12298E !important;
-    font-size: 11pt !important;
+    font-size: 10pt !important;
+    font-weight: 600 !important;
     font-family: "Roboto Condensed" !important;
 }
 
