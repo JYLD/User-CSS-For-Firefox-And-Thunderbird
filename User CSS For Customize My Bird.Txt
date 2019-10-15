@@ -1019,7 +1019,7 @@ menu, menulist, menuitem {
     font-family: "Archivo Narrow" !important;
 }
 
-#tabs-toolbar {	   
+#tabs-toolbar .tab-text {
     font-size: 11pt !important;
     font-family: "Archivo Narrow" !important;
 }
@@ -1059,14 +1059,6 @@ menu, menulist, menuitem {
     font-family: "Archivo Narrow" !important;
 }
 
-#agenda-listbox #today-header, #tomorrow-header, #nextweek-header {
-    background-color: #FEF6E2 !important;
-    background: linear-gradient(to right, rgba(255, 255, 0, .2), rgba(69, 177, 249, .3)),
-           url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/Stone G.bmp") !important;
-    color: #12298E !important;
-    text-decoration: underline !important;
-}
-
 #abResultsTreeCols {
     font-size: 11pt !important;
     font-family: "Archivo Narrow" !important;
@@ -1102,6 +1094,20 @@ menu, menulist, menuitem {
     background: linear-gradient(rgba(0, 0, 0, .05), rgba(0, 0, 0, .3)),
            url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/FolderTreeBackground3.png") !important;
     color: #FFFFFF !important;
+    font-size: 10pt !important;
+    font-family: "Roboto Condensed" !important;
+}
+
+#agenda-listbox > #today-header, #tomorrow-header, #nextweek-header {
+    background-color: #FEF6E2 !important;
+    background: linear-gradient(to right, rgba(255, 255, 0, .2), rgba(69, 177, 249, .3)),
+           url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/Stone G.bmp") !important;
+    color: #12298E !important;
+    text-decoration: underline !important;
+}
+
+#agenda-listbox > .agenda-container-box {	   
+    background: transparent !important;
     font-size: 10pt !important;
     font-family: "Roboto Condensed" !important;
 }
