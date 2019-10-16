@@ -520,13 +520,14 @@ window {
     background-color: #FDD06C !important;
 }
 
+.calendar-event-details,
 .calendar-event-details-core.title-desc,
 .calendar-event-details-core.location-desc {
     text-shadow: none !important;
     font-family: "Archivo Narrow" !important;
-    font-size: 10pt !important;
+    font-size: 14px !important;
     color: #000000 !important;
-    font-weight: 500 !important;
+    font-weight: 400 !important;
 }
 
 /*
