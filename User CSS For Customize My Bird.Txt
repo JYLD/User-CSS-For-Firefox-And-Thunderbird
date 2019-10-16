@@ -100,7 +100,7 @@ toolbarbutton[disabled="true"] {
 
 #tabs-toolbar .tabmail-tab:not([selected=true]) { 
     color: #FFFFFF !important;
-    font-weight: 500 !important;
+    font-weight: 400 !important;
     background: rgba(74,99,116,.4)
                   linear-gradient(rgba(202,214,222,.9), rgba(150,173,188,.6) 33%,
                                                       rgba(112,143,164,.5) 50%, rgba(74,99,116,.6)) !important;
@@ -180,6 +180,50 @@ toolbarbutton[disabled="true"] {
     color: #FFFF00 !important;
 }
 
+#quick-filter-bar-filter-text-bar {
+    background-color: #465966 !important;
+    background: linear-gradient(to right, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),
+           url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/QFBBackground3.png") !important;
+    color: #FFFFFF !important;
+    border: 0px solid transparent !important;
+    font-size: 11pt !important;
+    font-family: "Archivo Narrow" !important;
+}
+
+#quick-filter-bar-filter-text-bar > #qfb-qs-sender[checked="true"], #qfb-qs-recipients[checked="true"], #qfb-qs-subject[checked="true"], #qfb-qs-body[checked="true"] {
+    color: #12298E !important;
+    background: rgba(228, 241, 252,.8)
+                  linear-gradient(rgba(253,254,255,.8), rgba(243,244,245,.8),
+                                                      rgba(213,216,217,.6), rgba(193,194,195,.6)) !important;
+    text-shadow: none !important;
+    font-weight: 600 !important;
+    font-size: 10pt !important;
+    font-family: "Archivo Narrow" !important;
+    border-top: 2px solid #000000 !important;
+    border-left: 2px solid #000000 !important;
+    border-right: 1px solid #FFFFFF !important;
+    border-bottom: 1px solid #FFFFFF !important;
+}
+
+#quick-filter-bar-filter-text-bar > #qfb-qs-sender:not([checked="true"]), #qfb-qs-recipients:not([checked="true"]), #qfb-qs-subject:not([checked="true"]), #qfb-qs-body:not([checked="true"]) {
+    color: #12298E !important;
+    background: rgba(228, 241, 252,.8)
+                  linear-gradient(rgba(253,254,255,.8), rgba(243,244,245,.8),
+                                                      rgba(213,216,217,.6), rgba(193,194,195,.6)) !important;
+    text-shadow: none !important;
+    font-weight: 600 !important;
+    font-size: 10pt !important;
+    font-family: "Archivo Narrow" !important;
+    border-top: 1px solid #FFFFFF !important;
+    border-left: 1px solid #FFFFFF !important;
+    border-right: 2px solid #000000 !important;
+    border-bottom: 2px solid #000000 !important;
+}
+
+#quick-filter-bar-filter-text-bar > #qfb-qs-sender:hover, #qfb-qs-recipients:hover, #qfb-qs-subject:hover, #qfb-qs-body:hover {
+    color: #BC0030 !important;
+}
+
 /* _Mail Folder Tree And Email Thread Tree_ */
 
 #threadTree treechildren::-moz-tree-row(odd) { 
@@ -236,7 +280,7 @@ toolbarbutton[disabled="true"] {
     background: linear-gradient(rgba(17, 90, 169, .6), rgba(14, 73, 136, .6)),
            url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/FolderTreeBackground4.png") !important;
     color: #FFFFFF !important; 
-    font-weight: 500 !important;
+    font-weight: 400 !important;
     border: 0px solid transparent !important;
     margin-top: -1px !important;
     border: 0px solid #465966 !important;
@@ -282,7 +326,8 @@ treechildren::-moz-tree-twisty {
     border-right: 2px solid #000000 !important;
     border-bottom: 2px solid #000000 !important;
     border-radius: 0px 0px 0px 0px !important;
-    background-color: #DAF5FE !important;
+/*    background-color: #D8EFFE !important;  */
+    background-color: #BED6F6 !important;
 }
 
 treechildren::-moz-tree-image(folderNameCol) {
@@ -820,7 +865,7 @@ calendar-list-tree {
     background-color: #E6EAE4 !important;
     text-shadow: none !important;
     color: #12298E !important;
-    font-weight: 500 !important;
+    font-weight: 400 !important;
 }
 
 /*
@@ -1000,7 +1045,7 @@ calendar-list-tree {
     color: #FAFBFC !important;
     font-size: 10pt !important;
     font-family: "Arial Narrow" !important;
-    font-weight: 500 !important;
+    font-weight: 400 !important;
 }
 
 /*_UI Font Choices_*/
