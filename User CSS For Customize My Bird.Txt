@@ -1217,10 +1217,8 @@ menu, menulist, menuitem {
     color: #FFFFFF !important;
 }
 
-#addresses-box hbox > label {
+#addresses-box hbox > #identityLabel, #subjectLabel {
     color: #12298E !important;
-    font-size: 10pt !important;
-    font-family: "Roboto Condensed" !important;
 }
 
 vbox {
