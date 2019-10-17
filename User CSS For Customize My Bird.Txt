@@ -1043,9 +1043,23 @@ calendar-list-tree {
     height: 26px !important;
     text-shadow: none !important;
     color: #FAFBFC !important;
-    font-size: 10pt !important;
-    font-family: "Arial Narrow" !important;
+    font-size: 14px !important;
+    font-family: "Roboto Condensed" !important;
     font-weight: 400 !important;
+}
+
+#calendar-status-todaypane-button {
+        background: rgba(230, 243, 254,.6)
+                  linear-gradient(rgba(253,254,255,.9), rgba(228,229,230,.8),
+                                                      rgba(188,190,192,.7), rgba(153,154,155,.6)) !important;
+    color: #12298E !important;
+    font-size: 14px !important;
+    font-family: "Roboto Condensed" !important;
+    font-weight: 600 !important;
+}
+
+#calendar-status-todaypane-button:hover {
+    color: #BC0030 !important;
 }
 
 /*_UI Font Choices_*/
