@@ -1049,9 +1049,9 @@ calendar-list-tree {
 }
 
 #calendar-status-todaypane-button {
-        background: rgba(230, 243, 254,.6)
-                  linear-gradient(rgba(253,254,255,.9), rgba(228,229,230,.8),
-                                                      rgba(188,190,192,.7), rgba(153,154,155,.6)) !important;
+        background: rgba(236, 249, 254,.9)
+                  linear-gradient(rgba(253,254,255,.9), rgba(228,229,230,.85),
+                                                      rgba(188,190,192,.8), rgba(153,154,155,.8)) !important;
     color: #12298E !important;
     font-size: 14px !important;
     font-family: "Roboto Condensed" !important;
