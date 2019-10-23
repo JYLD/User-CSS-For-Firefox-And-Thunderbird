@@ -240,6 +240,7 @@ toolbarbutton[disabled="true"] {
 
 #threadTree treechildren::-moz-tree-row(hover) { 
     background-color: #AEDDFC !important;
+/*    background-color: #D3D6D9 !important;  */
     border: 0px solid transparent !important;
     margin-left: 4px !important;
     margin-right: 4px !important;
@@ -288,7 +289,8 @@ toolbarbutton[disabled="true"] {
 
 #folderTree > treechildren::-moz-tree-row(hover) { 
 /*    background-color: #1F7CDB !important;   */
-    background-color: #BC0030 !important;
+/*    background-color: #BC0030 !important;  */
+    background-color: #237DDD !important;
     border: 0px solid transparent !important;
     margin-left: 4px !important;
     margin-right: 4px !important;
@@ -1227,6 +1229,20 @@ vbox {
 
 hbox {
     font-family: "Archivo Narrow" !important;
+}
+
+/*___________________________________________*/
+
+tab.tabmail-tab[label="Calendar"] image.tab-icon-image {
+    width: 0 !important;
+    padding-right: 16px !important;
+    background-image: url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/Calendar-16.png") !important;
+    }
+
+tab.tabmail-tab[label="CustomizeMyBird"] image.tab-icon-image {
+    width: 0 !important;
+    padding-right: 16px !important;
+    background-image: url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/CMB16.png") !important;
 }
 
 /*___________________________________________*/
