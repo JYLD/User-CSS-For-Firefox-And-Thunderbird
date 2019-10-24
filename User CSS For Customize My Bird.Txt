@@ -68,6 +68,11 @@ toolbarbutton[disabled="true"] {
     font-family: "Archivo Narrow" !important;
 }
 
+#mail-toolbox toolbarbutton:hover {
+    color: #BC0030 !important;
+    background: #FFFFFF !important;
+}
+
 #tabs-toolbar {	   
 /*   background-color: #2D86DF !important;  */
     background: linear-gradient(rgba(0, 0, 99, .2), rgba(0, 0, 99, .3)) !important;
@@ -356,7 +361,8 @@ treechildren::-moz-tree-image(folderNameCol) {
 #attachment-splitter {
     background-color: #465966 !important; 
     color: #465966 !important; 
-    border: 2px solid #465966 !important;
+    display: none !important;
+    border: none !important;
 }
 
 /*_Message Content Pane Items_*/
@@ -392,6 +398,10 @@ treechildren::-moz-tree-image(folderNameCol) {
     border-left: 1px solid #FFFFFF !important;
     border-right: 1px solid #000000 !important;
     border-bottom: 1px solid #000000 !important;
+}
+
+#compose-toolbox toolbarbutton:hover {
+    background: #FFFFFF !important;
 }
 
 /*_Search Box Tweaks_*/
@@ -460,6 +470,11 @@ treechildren::-moz-tree-image(folderNameCol) {
     border-left: 1px solid #FFFFFF !important;
     border-right: 1px solid #000000 !important;
     border-bottom: 1px solid #000000 !important;
+}
+
+#calendar-toolbox toolbarbutton:hover {
+    color: #BC0030 !important;
+    background-color: #FFFFFF !important;
 }
 
 #calsidebar_splitter {
@@ -850,6 +865,11 @@ calendar-list-tree {
     border-bottom: 1px solid #000000 !important;
 }
 
+#ab-toolbox toolbarbutton:hover {
+    color: #BC0030 !important;
+    background-color: #FFFFFF !important;
+}
+
 /*  Addressbook Contacts Groups - List */
 #dirTree {
     background-color: #D0D8CB !important;
@@ -1051,7 +1071,7 @@ calendar-list-tree {
 }
 
 #calendar-status-todaypane-button {
-        background: rgba(236, 249, 254,.9)
+        background: rgba(242, 254, 255,.9)
                   linear-gradient(rgba(253,254,255,.9), rgba(228,229,230,.85),
                                                       rgba(188,190,192,.8), rgba(153,154,155,.8)) !important;
     color: #12298E !important;
@@ -1061,7 +1081,8 @@ calendar-list-tree {
 }
 
 #calendar-status-todaypane-button:hover {
-    color: #BC0030 !important;
+/*    color: #BC0030 !important;  */
+    background: #FFFFFF !important;
 }
 
 /*_UI Font Choices_*/
@@ -1236,13 +1257,67 @@ hbox {
 tab.tabmail-tab[label="Calendar"] image.tab-icon-image {
     width: 0 !important;
     padding-right: 16px !important;
-    background-image: url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/Calendar-16.png") !important;
+    margin-bottom: 1px !important;
+    background-image: url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/Calendar.png") !important;
     }
 
 tab.tabmail-tab[label="CustomizeMyBird"] image.tab-icon-image {
     width: 0 !important;
     padding-right: 16px !important;
     background-image: url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/CMB16.png") !important;
+}
+
+tab.tabmail-tab[label="Address Book"] image.tab-icon-image {
+    width: 0 !important;
+    padding-right: 16px !important;
+    background-image: url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/AddressBook.png") !important;
+}
+
+tab.tabmail-tab[label="Add-ons Manager"] image.tab-icon-image {
+    width: 0 !important;
+    padding-right: 16px !important;
+    background-image: url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/Administrator.png") !important;
+}
+
+/*___________________________________________*/
+
+#attachmentBar {
+    background: rgba(18,104,190,.8)
+                  linear-gradient(rgba(170,232,252,.8), rgba(47,141,235,.7) 49%,
+                                                      rgba(32,133,234,.6) 51%, rgba(20,114,208,.5)) !important;
+    height: 26px !important;
+    text-shadow: none !important;
+    color: #FAFBFC !important;
+    font-size: 14px !important;
+    font-family: "Roboto Condensed" !important;
+    font-weight: 400 !important;
+}
+
+#attachmentBar #attachmentSize {
+    color: #FAFBFC !important;
+    font-size: 14px !important;
+    font-family: "Roboto Condensed" !important;
+    font-weight: 400 !important;
+}
+
+#attachmentToggle {
+    color: #FAFBFC !important;
+    display: none !important;
+}
+
+#attachmentBar #attachmentSaveAllMultiple, #attachmentSaveAllSingle {
+        background: rgba(236, 249, 254,.9)
+                  linear-gradient(rgba(253,254,255,.9), rgba(228,229,230,.85),
+                                                      rgba(188,190,192,.8), rgba(153,154,155,.8)) !important;
+    color: #12298E !important;
+    font-size: 14px !important;
+    font-family: "Roboto Condensed" !important;
+    font-weight: 600 !important;
+    height: 20px !important;
+}
+
+#attachmentBar .toolbarbutton-menubutton-button:hover {
+    background: #FFFFFF !important;
 }
 
 /*___________________________________________*/
