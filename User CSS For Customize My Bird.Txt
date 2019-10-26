@@ -132,7 +132,7 @@ toolbarbutton[disabled="true"] {
 }    
 
 #quick-filter-bar-main-bar {
-    background-color: #465966 !important;
+    background-color: #4C9DE5 !important;
     color: #FFFFFF !important;
     height: 30px !important;
     background: linear-gradient(to right, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),
@@ -144,7 +144,7 @@ toolbarbutton[disabled="true"] {
 }
 
 #quick-filter-bar-main-bar .textbox-input-box {
-    background-color: #465966 !important;
+    background-color: #4C9DE5 !important;
     background: linear-gradient(to right, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),
            url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/QFBBackground3.png") !important;
     color: #FFFFFF !important;
@@ -154,7 +154,7 @@ toolbarbutton[disabled="true"] {
 }
 
 #qfb-qs-textbox {
-    background-color: #465966 !important;
+    background-color: #4C9DE5 !important;
     background: linear-gradient(to right, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),
            url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/QFBBackground3.png") !important;
     color: #FFFFFF !important;
@@ -186,7 +186,7 @@ toolbarbutton[disabled="true"] {
 }
 
 #quick-filter-bar-filter-text-bar {
-    background-color: #465966 !important;
+    background-color: #4C9DE5 !important;
     background: linear-gradient(to right, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),
            url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/QFBBackground3.png") !important;
     color: #FFFFFF !important;
@@ -287,7 +287,7 @@ toolbarbutton[disabled="true"] {
 }
 
 #folderTree { 
-    background-color: #465966 !important; 
+    background-color: #4C9DE5 !important; 
     background: linear-gradient(rgba(17, 90, 169, .6), rgba(14, 73, 136, .6)),
            url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/FolderTreeBackground4.png") !important;
     color: #FFFFFF !important; 
@@ -311,8 +311,8 @@ toolbarbutton[disabled="true"] {
 /*    background: #F0EFEE !important; */
     background-color: highlight !important; 
     background: rgba(240, 239, 238, 1.0)
-                  linear-gradient(rgba(255,255,255,.5), rgba(252,252,252,.4),
-                                                      transparent, rgba(0,0,0,.08), rgba(0,0,0,.12)) !important;
+                  linear-gradient(rgba(255,255,255,.9), rgba(252,252,252,.7), transparent,
+                                                       rgba(0,0,0,.1), rgba(0,0,0,.2), rgba(0,0,0,.3)) !important;
     border: none !important;
     margin-left: 4px !important;
     margin-right: 4px !important;
@@ -367,8 +367,11 @@ treechildren::-moz-tree-image(folderNameCol) {
 
 #folderpane_splitter {
     background-color: #4C9DE5 !important; 
-    color: #4C9DE5 !important;
+    color: #4C9DE5 !important; 
+    max-width: 2px !important;
     border: none !important;
+/*  Remove Following Line If Resizing Folderpane Is Needed */
+    visibility: hidden !important;
 }
 
 #attachment-splitter {
@@ -991,12 +994,12 @@ calendar-list-tree {
 
 #folderTree { 
     margin-right: 0px !important;
-    border: 0px solid #465966 !important;
+    border: 0px solid #4C9DE5 !important;
 } 
 
 #folderpane_splitter {
     width: 2px !important;
-    background-color: #465966 !important;
+    background-color: #4C9DE5 !important;
     border: 0px solid transparent !important;
 }
 
