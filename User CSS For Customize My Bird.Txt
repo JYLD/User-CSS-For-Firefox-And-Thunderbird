@@ -52,7 +52,7 @@ toolbarbutton[disabled="true"] {
                                                       rgba(32,133,234,.6) 51%, rgba(20,114,208,.3)) !important;
     height: 28px !important;
     line-height: 24px !important;
-    border: 0px solid transparent !important;
+    border: none !important;
 }
 
 #mail-toolbox toolbarbutton {
@@ -137,8 +137,8 @@ toolbarbutton[disabled="true"] {
     height: 30px !important;
     background: linear-gradient(to right, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),
            url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/QFBBackground3.png") !important;
-    margin-left: 4px !important;
-    border: 0px solid transparent !important;
+    margin-left: 1px !important;
+    border: none !important;
     font-size: 11pt !important;
     font-family: "Archivo Narrow" !important;
 }
@@ -148,7 +148,7 @@ toolbarbutton[disabled="true"] {
     background: linear-gradient(to right, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),
            url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/QFBBackground3.png") !important;
     color: #FFFFFF !important;
-    border: 0px solid transparent !important;
+    border: none !important;
     font-size: 11pt !important;
     font-family: "Archivo Narrow" !important;
 }
@@ -158,7 +158,7 @@ toolbarbutton[disabled="true"] {
     background: linear-gradient(to right, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),
            url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/QFBBackground3.png") !important;
     color: #FFFFFF !important;
-    border: 0px solid transparent !important;
+    border: none !important;
     font-size: 11pt !important;
     font-family: "Archivo Narrow" !important;
 }
@@ -166,7 +166,7 @@ toolbarbutton[disabled="true"] {
 #quick-filter-bar-main-bar .textbox-input:hover {
     background-color: #FFFFFF !important;
     color: #0725EB !important;
-    border: 0px solid transparent !important;
+    border: none !important;
     font-size: 11pt !important;
     font-family: "Archivo Narrow" !important;
 }
@@ -190,7 +190,7 @@ toolbarbutton[disabled="true"] {
     background: linear-gradient(to right, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),
            url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/QFBBackground3.png") !important;
     color: #FFFFFF !important;
-    border: 0px solid transparent !important;
+    border: none !important;
     font-size: 11pt !important;
     font-family: "Archivo Narrow" !important;
 }
@@ -275,12 +275,12 @@ toolbarbutton[disabled="true"] {
     height: 22px !important; 
     padding-top: 1px !important;
     border: none !important;
-    margin-left: 4px !important;
+    margin-left: 6px !important;
     margin-right: 4px !important;
 } 
 
 #threadTree { 
-    margin-left: 4px !important;
+    margin-left: 2px !important;
     margin-right: 4px !important;
     border: none !important;
     border-top: 3px solid #4C9DE5 !important;
@@ -385,7 +385,7 @@ treechildren::-moz-tree-image(folderNameCol) {
 
 #msgHeaderView {
     background-color: #D8EFFE !important; 
-    border: 0px solid transparent !important;
+    border: none !important;
     border-top: 3px solid #4C9DE5 !important;
 }
 
@@ -449,13 +449,13 @@ treechildren::-moz-tree-image(folderNameCol) {
            url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/QFBBackground3.png") !important;
     font-size: 11pt !important;
     font-family: "Archivo Narrow" !important;
-    border: 0px solid transparent !important;
+    border: none !important;
 }
 
 #peopleSearchInput .textbox-input-box:hover {
     background-color: #84C3EF !important;
     color: #0725EB !important;
-    border: 0px solid transparent !important;
+    border: none !important;
     font-size: 11pt !important;
     font-family: "Archivo Narrow" !important;
 }
@@ -1000,7 +1000,7 @@ calendar-list-tree {
 #folderpane_splitter {
     width: 2px !important;
     background-color: #4C9DE5 !important;
-    border: 0px solid transparent !important;
+    border: none !important;
 }
 
 /*_Miscellaneous Button Fills_*/
