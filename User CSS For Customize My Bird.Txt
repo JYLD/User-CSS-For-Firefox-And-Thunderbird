@@ -233,43 +233,48 @@ toolbarbutton[disabled="true"] {
 
 #threadTree treechildren::-moz-tree-row(odd) { 
     background-color: #E7F7FE !important; 
-    border: 0px solid transparent !important;
-    padding-top: 4px !important;
+    border: none !important;
 } 
 
 #threadTree treechildren::-moz-tree-row(even) { 
     background-color: #F9FEFF !important; 
-    border: 0px solid transparent !important;
-    padding-top: 4px !important;
+    border: none !important;
 } 
 
 #threadTree treechildren::-moz-tree-row(hover) { 
     background-color: #AEDDFC !important;
-/*    background-color: #D3D6D9 !important;  */
-    border: 0px solid transparent !important;
+    background: rgba(175,211,247,1.0)
+                  linear-gradient(rgba(253,254,255,.5), rgba(253,254,255,.4),
+                                                      transparent, rgba(0,0,0,.06), rgba(0,0,0,.1)) !important;
+    border: none !important;
     margin-left: 4px !important;
     margin-right: 4px !important;
 } 
 
 #threadTree treechildren::-moz-tree-row(selected) { 
     background-color: #FFD0F8 !important; 
-    border: 0px solid transparent !important;
+    background: rgba(255,208,248,1.0)
+                  linear-gradient(rgba(255,255,255,.5), rgba(250,250,250,.4),
+                                                      transparent, rgba(0,0,0,.06), rgba(0,0,0,.1)) !important;
+    border: none !important;
     margin-left: 4px !important;
     margin-right: 4px !important;
 } 
 
 #threadTree treechildren::-moz-tree-row(selected, focus) { 
     background-color: highlight !important; 
-    border: 0px solid transparent !important;
+    background: highlight
+                  linear-gradient(rgba(255,255,255,.5), rgba(250,250,250,.4),
+                                                      transparent, rgba(0,0,0,.06), rgba(0,0,0,.1)) !important;
+    border: none !important;
     margin-left: 4px !important;
     margin-right: 4px !important;
 } 
 
 #threadTree treechildren::-moz-tree-row { 
     height: 22px !important; 
-    min-height: 22px !important; 
-    padding-top: 4px !important;
-    border: 0px solid transparent !important;
+    padding-top: 1px !important;
+    border: none !important;
     margin-left: 4px !important;
     margin-right: 4px !important;
 } 
@@ -277,8 +282,8 @@ toolbarbutton[disabled="true"] {
 #threadTree { 
     margin-left: 4px !important;
     margin-right: 4px !important;
-    border: 0px solid transparent !important;
-    border-top: 3px solid #465966 !important;
+    border: none !important;
+    border-top: 3px solid #4C9DE5 !important;
 }
 
 #folderTree { 
@@ -287,38 +292,46 @@ toolbarbutton[disabled="true"] {
            url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/FolderTreeBackground4.png") !important;
     color: #FFFFFF !important; 
     font-weight: 400 !important;
-    border: 0px solid transparent !important;
+    border: none !important;
     margin-top: -1px !important;
-    border: 0px solid #465966 !important;
+    border: none !important;
 } 
 
 #folderTree > treechildren::-moz-tree-row(hover) { 
-/*    background-color: #1F7CDB !important;   */
-/*    background-color: #BC0030 !important;  */
-    background-color: #237DDD !important;
-    border: 0px solid transparent !important;
+    background-color: #2B81D9 !important;
+    background: rgba(18,104,190,.8)
+                  linear-gradient(rgba(170,232,252,.8), rgba(47,141,235,.7) 49%,
+                                                      rgba(32,133,234,.6) 51%, rgba(20,114,208,.5)) !important;
+    border: none !important;
     margin-left: 4px !important;
     margin-right: 4px !important;
 } 
 
 #folderTree > treechildren::-moz-tree-row(selected) { 
-    background-color: #F0EFEE !important; 
-    border: 0px solid transparent !important;
+/*    background: #F0EFEE !important; */
+    background-color: highlight !important; 
+    background: rgba(240, 239, 238, 1.0)
+                  linear-gradient(rgba(255,255,255,.5), rgba(252,252,252,.4),
+                                                      transparent, rgba(0,0,0,.08), rgba(0,0,0,.12)) !important;
+    border: none !important;
     margin-left: 4px !important;
     margin-right: 4px !important;
 }
 
 #folderTree > treechildren::-moz-tree-row(selected, focus) { 
-    background-color: Highlight !important; 
-    border: 0px solid transparent !important;
+    background-color: highlight !important; 
+    background: highlight
+                  linear-gradient(rgba(255,255,255,.5), rgba(250,250,250,.4),
+                                                      transparent, rgba(0,0,0,.06), rgba(0,0,0,.1)) !important;
+    border: none !important;
     margin-left: 4px !important;
     margin-right: 4px !important;
 }
 
 #folderTree > treechildren::-moz-tree-row {
     height: 22px !important; 
-    min-height: 22px !important; 
-    border: 0px solid transparent !important;
+    padding-top: 1px !important;
+    border: none !important;
 } 
 
 treechildren::-moz-tree-twisty {
@@ -343,24 +356,24 @@ treechildren::-moz-tree-image(folderNameCol) {
     background-position: left center !important;
     background-repeat: no-repeat !important;
     opacity: 0 !important;
-    border: 0px solid #465966 !important;
+    border: none !important;
 }
 
 #threadpane-splitter {
-    background-color: #465966 !important; 
-    color: #465966 !important; 
-    border: 1px solid #465966 !important;
+    background-color: #4C9DE5 !important; 
+    color: #4C9DE5 !important; 
+    border: none !important;
 }
 
 #folderpane_splitter {
-    background-color: #465966 !important; 
-    color: #465966 !important; 
-    border: 1px solid #465966 !important;
+    background-color: #4C9DE5 !important; 
+    color: #4C9DE5 !important;
+    border: none !important;
 }
 
 #attachment-splitter {
-    background-color: #465966 !important; 
-    color: #465966 !important; 
+    background-color: #4C9DE5 !important; 
+    color: #4C9DE5 !important; 
     display: none !important;
     border: none !important;
 }
@@ -370,7 +383,7 @@ treechildren::-moz-tree-image(folderNameCol) {
 #msgHeaderView {
     background-color: #D8EFFE !important; 
     border: 0px solid transparent !important;
-    border-top: 3px solid #465966 !important;
+    border-top: 3px solid #4C9DE5 !important;
 }
 
 /*_Write Message Window Tweaks_*/
@@ -402,6 +415,7 @@ treechildren::-moz-tree-image(folderNameCol) {
 
 #compose-toolbox toolbarbutton:hover {
     background: #FFFFFF !important;
+    color: #BC0030 !important;
 }
 
 /*_Search Box Tweaks_*/
@@ -898,10 +912,16 @@ calendar-list-tree {
 
 #abResultsTree > treechildren::-moz-tree-row(selected) {
     background-color: #FFD0F8 !important; 
+    background: rgba(255,208,248,1.0)
+                  linear-gradient(rgba(255,255,255,.5), rgba(250,250,250,.4),
+                                                      transparent, rgba(0,0,0,.06), rgba(0,0,0,.1)) !important;
 }
 
 #abResultsTree > treechildren::-moz-tree-row(selected, focus) {
     background-color: highlight !important; 
+    background: highlight
+                  linear-gradient(rgba(255,255,255,.5), rgba(250,250,250,.4),
+                                                      transparent, rgba(0,0,0,.06), rgba(0,0,0,.1)) !important;
 }
 
 #CardTitle {
@@ -1081,7 +1101,7 @@ calendar-list-tree {
 }
 
 #calendar-status-todaypane-button:hover {
-/*    color: #BC0030 !important;  */
+    color: #BC0030 !important;
     background: #FFFFFF !important;
 }
 
@@ -1226,18 +1246,26 @@ menu, menulist, menuitem {
 
 #folderTree > treechildren::-moz-tree-cell-text(selected) {
     color: #000000 !important;
-    font-weight: bold !important;
+    font-weight: 600 !important;
 }
 
 #folderTree > treechildren::-moz-tree-cell-text(selected, focus) {
     color: #FFFFFF !important;
-    font-weight: bold !important;
+    font-weight: 600 !important;
 }
 
 #folderpane-mode-selector-menulist {
     background: linear-gradient(to right, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),
            url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/QFBBackground3.png") !important;
     color: #FFFFFF !important;
+}
+
+#threadTree treechildren::-moz-tree-cell-text(selected) {
+    font-weight: 500 !important;
+}
+
+#threadTree treechildren::-moz-tree-cell-text(selected, focus) {
+    font-weight: 500 !important;
 }
 
 #addresses-box hbox > #identityLabel, #subjectLabel {
@@ -1279,7 +1307,7 @@ tab.tabmail-tab[label="Add-ons Manager"] image.tab-icon-image {
     background-image: url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/Administrator.png") !important;
 }
 
-/*___________________________________________*/
+/*_Attachment Bar_*/
 
 #attachmentBar {
     background: rgba(18,104,190,.8)
@@ -1314,10 +1342,12 @@ tab.tabmail-tab[label="Add-ons Manager"] image.tab-icon-image {
     font-family: "Roboto Condensed" !important;
     font-weight: 600 !important;
     height: 20px !important;
+    margin-right: 4px !important;
 }
 
 #attachmentBar .toolbarbutton-menubutton-button:hover {
     background: #FFFFFF !important;
+    color: #BC0030 !important;
 }
 
 /*___________________________________________*/
