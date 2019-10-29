@@ -143,7 +143,7 @@ toolbarbutton[disabled="true"] {
     height: 30px !important;
     background: linear-gradient(to right, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),
            url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/QFBBackground3.png") !important;
-    margin-left: 1px !important;
+    margin-left: 0px !important;
     border: none !important;
     font-size: 11pt !important;
     font-family: "Archivo Narrow" !important;
@@ -352,7 +352,7 @@ treechildren::-moz-tree-twisty {
     border-bottom: 2px solid #000000 !important;
     border-radius: 0px 0px 0px 0px !important;
 /*    background-color: #D8EFFE !important;  */
-    background-color: #BED6F6 !important;
+    background-color: #D4F3FE !important;
 }
 
 treechildren::-moz-tree-image(folderNameCol) {
