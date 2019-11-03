@@ -418,7 +418,6 @@ treechildren::-moz-tree-image(folderNameCol) {
               rgba(135,189,243,.6), rgba(115,178,241,.6)),
                    url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/Stone G.bmp") !important;
     color: #12298E !important;
-    font-weight: 500 !important;
     border: none !important;
     border-top: 3px solid #4C9DE5 !important;
 }
@@ -1455,7 +1454,7 @@ tab.tabmail-tab[label="Add-ons Manager"] image.tab-icon-image {
 
 /*___________________________________________*/
 
-#threadTree treecol { 
+#threadTree treecol, #abResultsTree treecol { 
     background-image: none !important;
     background-attachment: none !important;
     background: rgba(175,211,247,1.0)
@@ -1465,7 +1464,7 @@ tab.tabmail-tab[label="Add-ons Manager"] image.tab-icon-image {
     font-weight: 500 !important;
 }
 
-#threadTree treecol:hover { 
+#threadTree treecol:hover, #abResultsTree treecol:hover { 
     background-image: none !important;
     background-attachment: none !important;
     background: rgba(255,208,248,1.0)
@@ -1474,3 +1473,4 @@ tab.tabmail-tab[label="Add-ons Manager"] image.tab-icon-image {
 }
 
 /*___________________________________________*/
+
