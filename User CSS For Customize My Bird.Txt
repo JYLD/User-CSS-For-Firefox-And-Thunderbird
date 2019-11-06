@@ -1454,7 +1454,7 @@ tab.tabmail-tab[label="Add-ons Manager"] image.tab-icon-image {
 
 /*___________________________________________*/
 
-#threadTree .treecol-image, treecol, #abResultsTree treecol, #abResultsTree .treecol-image { 
+#threadTree .treecol-image, treecol, #abResultsTree treecol, #abResultsTree .treecol-image, #unifinder-search-results-tree-cols .treecol-image { 
     background-image: none !important;
     background-attachment: none !important;
     background: rgba(175,211,247,1.0)
@@ -1464,7 +1464,7 @@ tab.tabmail-tab[label="Add-ons Manager"] image.tab-icon-image {
     font-weight: 500 !important;
 }
 
-#threadTree .treecol-image:hover, treecol:hover, #abResultsTree treecol:hover, #abResultsTree .treecol-image:hover { 
+#threadTree .treecol-image:hover, treecol:hover, #abResultsTree treecol:hover, #abResultsTree .treecol-image:hover, #unifinder-search-results-tree-cols .treecol-image:hover { 
     background-image: none !important;
     background-attachment: none !important;
     background: rgba(255,208,248,1.0)
