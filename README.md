@@ -32,3 +32,10 @@ You can contact JYLD at g a r y AT g a r y b r i t t DOT c o m (delete spaces an
 UPDATE:
 
 If you implement the latest version of my CSS for CMB or in a userChrome.css file and if you use a Thunderbird theme like I am currently using Blue-FK by Fantastic King https://addons.thunderbird.net/en-US/thunderbird/addon/blue-fk/?src=userprofile then you don't need to have Theme & Font Size Changer installed at all.
+
+UPDATE 2:
+
+If you use my css with thunderbird 68+ remember to set this:
+
+Settings/Options > Advanced > General > Config Editor...
+toolkit.legacyUserProfileCustomizations.stylesheets to true
