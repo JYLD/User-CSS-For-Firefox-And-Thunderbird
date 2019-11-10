@@ -1,0 +1,24 @@
+/* Put this in Thunderbird userContent.css file */
+
+body {
+    font-size: 100% !important;
+}
+
+.moz-text-html .MsoNormal {
+    font-size: 112.5% !important;
+}
+
+.moz-text-html .MsoListParagraph {
+    font-size: 112.5% !important;
+    line-height 1.25 !important;
+}
+
+.moz-text-html > #divtagdefaultwrapper p {
+    font-size: 112.5% !important;
+}
+
+pre, code, kbd, samp, tt {
+    font-family: monospace, monospace !important;
+    font-size: 112.5% !important;
+}
+
