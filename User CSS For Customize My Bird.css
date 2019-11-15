@@ -1168,7 +1168,7 @@ calendar-list-tree {
 /*_UI Font Choices_*/
 
 menu, menulist, menuitem { 
-    font-size: 11pt !important;
+    font-size: 15px !important;
     font-family: "Archivo Narrow" !important;
 }
 
