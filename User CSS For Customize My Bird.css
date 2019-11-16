@@ -26,7 +26,7 @@
 
 #customizemybird_content_box {
     font-size: 11pt !important;
-    font-family: "Arial" !important;
+    font-family: 'Arial' !important;
 }    
 
 /* This is the menubar */
@@ -65,7 +65,7 @@ toolbarbutton[disabled="true"] {
     color: #12298E !important;
     font-weight: 600 !important;
     font-size: 10pt !important;
-    font-family: "Archivo Narrow" !important;
+    font-family: 'Archivo Narrow' !important;
 }
 
 #mail-toolbox toolbarbutton:hover {
@@ -148,7 +148,7 @@ toolbarbutton[disabled="true"] {
     margin-left: 0px !important;
     border: none !important;
     font-size: 11pt !important;
-    font-family: "Archivo Narrow" !important;
+    font-family: 'Archivo Narrow' !important;
 }
 
 #quick-filter-bar-main-bar .textbox-input-box {
@@ -160,7 +160,7 @@ toolbarbutton[disabled="true"] {
     color: #FFFFFF !important;
     border: none !important;
     font-size: 11pt !important;
-    font-family: "Archivo Narrow" !important;
+    font-family: 'Archivo Narrow' !important;
 }
 
 #qfb-qs-textbox {
@@ -172,7 +172,7 @@ toolbarbutton[disabled="true"] {
     color: #FFFFFF !important;
     border: none !important;
     font-size: 11pt !important;
-    font-family: "Archivo Narrow" !important;
+    font-family: 'Archivo Narrow' !important;
 }
 
 #quick-filter-bar-main-bar .textbox-input:hover {
@@ -180,7 +180,7 @@ toolbarbutton[disabled="true"] {
     color: #0725EB !important;
     border: none !important;
     font-size: 11pt !important;
-    font-family: "Archivo Narrow" !important;
+    font-family: 'Archivo Narrow' !important;
 }
 
 #quick-filter-bar-main-bar .textbox-search-clear {
@@ -206,7 +206,7 @@ toolbarbutton[disabled="true"] {
     color: #FFFFFF !important;
     border: none !important;
     font-size: 11pt !important;
-    font-family: "Archivo Narrow" !important;
+    font-family: 'Archivo Narrow' !important;
 }
 
 #quick-filter-bar-filter-text-bar > #qfb-qs-sender[checked="true"], #qfb-qs-recipients[checked="true"], #qfb-qs-subject[checked="true"], #qfb-qs-body[checked="true"] {
@@ -217,7 +217,7 @@ toolbarbutton[disabled="true"] {
     text-shadow: none !important;
     font-weight: 600 !important;
     font-size: 10pt !important;
-    font-family: "Archivo Narrow" !important;
+    font-family: 'Archivo Narrow' !important;
     border-top: 2px solid #000000 !important;
     border-left: 2px solid #000000 !important;
     border-right: 1px solid #FFFFFF !important;
@@ -232,7 +232,7 @@ toolbarbutton[disabled="true"] {
     text-shadow: none !important;
     font-weight: 600 !important;
     font-size: 10pt !important;
-    font-family: "Archivo Narrow" !important;
+    font-family: 'Archivo Narrow' !important;
     border-top: 1px solid #FFFFFF !important;
     border-left: 1px solid #FFFFFF !important;
     border-right: 2px solid #000000 !important;
@@ -440,7 +440,7 @@ treechildren::-moz-tree-image(folderNameCol) {
     color: #12298E !important;
     font-weight: 600 !important;
     font-size: 10pt !important;
-    font-family: "Archivo Narrow" !important;
+    font-family: 'Archivo Narrow' !important;
     background: rgba(255,255,255,.95)
                   linear-gradient(rgba(253,254,255,.8), rgba(243,244,245,.8),
                                                       rgba(213,216,217,.6), rgba(193,194,195,.6)) !important;
@@ -459,7 +459,7 @@ treechildren::-moz-tree-image(folderNameCol) {
 
 .searchBox .textbox-input-box {
     font-size: 11pt !important;
-    font-family: "Archivo Narrow" !important;
+    font-family: 'Archivo Narrow' !important;
     color: #072AFF !important;
 }
 
@@ -484,7 +484,7 @@ treechildren::-moz-tree-image(folderNameCol) {
     background: linear-gradient(rgba(150, 211, 243, .9), rgba(98, 170, 233, .75), rgba(62, 142, 225, .6)),
            url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/QFBBackground3.png") !important;
     font-size: 11pt !important;
-    font-family: "Archivo Narrow" !important;
+    font-family: 'Archivo Narrow' !important;
     border: none !important;
 }
 
@@ -493,7 +493,7 @@ treechildren::-moz-tree-image(folderNameCol) {
     color: #0725EB !important;
     border: none !important;
     font-size: 11pt !important;
-    font-family: "Archivo Narrow" !important;
+    font-family: 'Archivo Narrow' !important;
 }
 
 #peopleSearchInput .textbox-search-clear {
@@ -590,7 +590,7 @@ calendar-day-label {
     line-height: 30px !important;
     padding-top: 2px !important;
     font-size: 11pt !important;
-    font-family: "Archivo Narrow" !important;
+    font-family: 'Archivo Narrow' !important;
 }
 
 .calendar-day-label-name[relation="today"],
@@ -642,7 +642,7 @@ window {
 .calendar-event-details-core.title-desc,
 .calendar-event-details-core.location-desc {
     text-shadow: none !important;
-    font-family: "Archivo Narrow" !important;
+    font-family: 'Archivo Narrow' !important;
     font-size: 14px !important;
     color: #000000 !important;
     font-weight: 400 !important;
@@ -990,7 +990,7 @@ calendar-list-tree {
     line-height: 25px !important;
     padding-left: 10px !important;
     text-shadow: none !important;
-    font-family: "Century Gothic" !important;
+    font-family: 'Century Gothic' !important;
     font-size: 12pt !important;
     color: #FFFFFF !important;
     font-weight: 600 !important;
@@ -1143,7 +1143,7 @@ calendar-list-tree {
     text-shadow: none !important;
     color: #FAFBFC !important;
     font-size: 14px !important;
-    font-family: "Roboto Condensed" !important;
+    font-family: 'Roboto Condensed' !important;
     font-weight: 400 !important;
     border: none !important;
 }
@@ -1154,7 +1154,7 @@ calendar-list-tree {
                                                        rgba(0,0,0,.15), rgba(0,0,0,.25), rgba(0,0,0,.4)) !important;
     color: #12298E !important;
     font-size: 14px !important;
-    font-family: "Roboto Condensed" !important;
+    font-family: 'Roboto Condensed' !important;
     font-weight: 600 !important;
 }
 
@@ -1167,81 +1167,88 @@ calendar-list-tree {
 
 /*_UI Font Choices_*/
 
-menu, menulist, menuitem { 
+menu { 
+    font-family: 'Archivo Narrow' !important;
     font-size: 15px !important;
-    font-family: "Archivo Narrow" !important;
+    font-weight: 500 !important;
+}
+
+menulist, menuitem { 
+    font-family: 'Archivo Narrow' !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
 }
 
 #folderTree > treechildren {
     font-size: 14px !important;
-    font-family: "Archivo Narrow" !important;
+    font-family: 'Archivo Narrow' !important;
 }
 
 #threadTree > treechildren {
     font-size: 14px !important;
-    font-family: "Archivo Narrow" !important;
+    font-family: 'Archivo Narrow' !important;
 }
 
 #tabs-toolbar .tab-text {
     font-size: 11pt !important;
-    font-family: "Archivo Narrow" !important;
+    font-family: 'Archivo Narrow' !important;
 }
 
 #calendar-toolbox {
     font-size: 10pt !important;
-    font-family: "Roboto Condensed" !important;
+    font-family: 'Roboto Condensed' !important;
 }
 
 #calendar-view-box #event-filter-menulist {	   
     font-size: 10pt !important;
-    font-family: "Arial Narrow" !important;
+    font-family: 'Arial Narrow' !important;
 }
 
 #calendar-view-box #unifinder-searchBox {	   
     font-size: 11pt !important;
-    font-family: "Archivo Narrow" !important;
+    font-family: 'Archivo Narrow' !important;
 }
 
 #calendar-view-box #unifinder-search-results-tree { 	   
     font-size: 11pt !important;
-    font-family: "Archivo Narrow" !important;
+    font-family: 'Archivo Narrow' !important;
 }
 
 #ab-toolbox toolbarbutton {
     font-size: 10pt !important;
-    font-family: "Roboto Condensed" !important;
+    font-family: 'Roboto Condensed' !important;
 }
 
 #dirTree > treechildren {
     font-size: 10pt !important;
-    font-family: "Roboto Condensed" !important;
+    font-family: 'Roboto Condensed' !important;
 }
 
 #abResultsTree  > treechildren {
     font-size: 11pt !important;
-    font-family: "Archivo Narrow" !important;
+    font-family: 'Archivo Narrow' !important;
 }
 
 #abResultsTreeCols {
     font-size: 11pt !important;
-    font-family: "Archivo Narrow" !important;
+    font-family: 'Archivo Narrow' !important;
 }
 
 #CardViewBox { 
     font-size: 11pt !important;
-    font-family: "Archivo Narrow" !important;
+    font-family: 'Archivo Narrow' !important;
 }
 
 #msgHeaderView {
     font-size: 11pt !important;
-    font-family: "Roboto Condensed" !important;
+    font-family: 'Roboto Condensed' !important;
 }
 
 #msgHeaderView .headerName {
     color: #12298E !important;
     font-size: 10pt !important;
     font-weight: 600 !important;
-    font-family: "Roboto Condensed" !important;
+    font-family: 'Roboto Condensed' !important;
 }
 
 #msgHeaderView #expandedtagsBox .blc-FF0000 {
@@ -1260,7 +1267,7 @@ menu, menulist, menuitem {
            url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/FolderTreeBackground3.png") !important;
     color: #FFFFFF !important;
     font-size: 10pt !important;
-    font-family: "Roboto Condensed" !important;
+    font-family: 'Roboto Condensed' !important;
 }
 
 #agenda-listbox > #today-header, #tomorrow-header, #nextweek-header {
@@ -1276,7 +1283,7 @@ menu, menulist, menuitem {
 #agenda-listbox > .agenda-container-box {	   
     background: transparent !important;
     font-size: 10pt !important;
-    font-family: "Roboto Condensed" !important;
+    font-family: 'Roboto Condensed' !important;
 }
 
 /* This sets ALL mail folders to white including the [Gmail] Folder */
@@ -1291,7 +1298,7 @@ menu, menulist, menuitem {
     font-weight: bold !important;
     text-decoration: underline !important;
     font-size: 11pt !important;
-    font-family: "Roboto Condensed" !important;
+    font-family: 'Roboto Condensed' !important;
 }
 
 /* Style Folder Tree Account Names with new mail */
@@ -1300,7 +1307,7 @@ menu, menulist, menuitem {
     font-weight: bold !important;
     text-decoration: underline !important;
     font-size: 11pt !important;
-    font-family: "Roboto Condensed" !important;
+    font-family: 'Roboto Condensed' !important;
 }
 
 #folderTree > treechildren::-moz-tree-cell-text(hasUnreadMessages-true) {
@@ -1336,16 +1343,24 @@ menu, menulist, menuitem {
     font-weight: 500 !important;
 }
 
-#addresses-box hbox > #identityLabel, #subjectLabel {
+#addresses-box #identityLabel, #subjectLabel {
     color: #12298E !important;
+    font-size: 14px !important;
+    font-family: 'Archivo Narrow' !important;
+}
+
+#addresses-box #msgSubject {
+    color: #12298E !important;
+    font-size: 14px !important;
+    font-family: 'Archivo Narrow' !important;
 }
 
 vbox {
-    font-family: "Archivo Narrow" !important;
+    font-family: 'Archivo Narrow' !important;
 }
 
 hbox {
-    font-family: "Archivo Narrow" !important;
+    font-family: 'Archivo Narrow' !important;
 }
 
 /*___________________________________________*/
@@ -1393,7 +1408,7 @@ tab.tabmail-tab[label="Add-ons Manager"] image.tab-icon-image {
     text-shadow: none !important;
     color: #FAFBFC !important;
     font-size: 14px !important;
-    font-family: "Roboto Condensed" !important;
+    font-family: 'Roboto Condensed' !important;
     font-weight: 400 !important;
     border: none !important;
 }
@@ -1401,7 +1416,7 @@ tab.tabmail-tab[label="Add-ons Manager"] image.tab-icon-image {
 #attachmentBar #attachmentSize {
     color: #FAFBFC !important;
     font-size: 14px !important;
-    font-family: "Roboto Condensed" !important;
+    font-family: 'Roboto Condensed' !important;
     font-weight: 400 !important;
 }
 
@@ -1416,7 +1431,7 @@ tab.tabmail-tab[label="Add-ons Manager"] image.tab-icon-image {
                                                        rgba(0,0,0,.15), rgba(0,0,0,.25), rgba(0,0,0,.4)) !important;
     color: #12298E !important;
     font-size: 14px !important;
-    font-family: "Roboto Condensed" !important;
+    font-family: 'Roboto Condensed' !important;
     font-weight: 600 !important;
     height: 20px !important;
     margin-right: 4px !important;
