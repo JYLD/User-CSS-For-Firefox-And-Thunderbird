@@ -1153,7 +1153,7 @@ calendar-list-tree {
     fill: darkgreen !important;
 }
 
-#imipTentativeButton {
+#imipTentativeButton, #tentativeButton {
     fill: #FF00FF !important;
 }
 
