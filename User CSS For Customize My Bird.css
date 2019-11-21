@@ -455,6 +455,22 @@ treechildren::-moz-tree-image(folderNameCol) {
     color: #BC0030 !important;
 }
 
+#boldButton .toolbarbutton-icon {
+  -moz-image-region: rect(0px, 36px, 36px, 0px) !important;
+}
+#italicButton .toolbarbutton-icon {
+  -moz-image-region: rect(0px, 72px, 36px, 36px) !important;
+}
+#underlineButton .toolbarbutton-icon {
+  -moz-image-region: rect(0px, 108px, 36px, 72px) !important;
+}
+
+:-moz-any(#boldButton,#italicButton,#underlineButton) .toolbarbutton-icon {
+  list-style-image: url(file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/BUI_Blue2.png) !important;
+  width: 14px !important;
+  height: 14px !important;
+}
+
 /*_Search Box Tweaks_*/
 
 .searchBox .textbox-input-box {
@@ -1146,6 +1162,22 @@ calendar-list-tree {
 }
 
 #imipMoreButton {
+    fill: #0044e6 !important;
+}
+
+/*
+#boldButton, #italicButton, #underlineButton {
+    fill: blue !important;
+    background-color: red !important;
+    opacity: 0 !important;
+}
+*/
+
+#AbsoluteFontSizeButton, #DecreaseFontSizeButton, #IncreaseFontSizeButton {
+    fill: #0044e6 !important;
+}
+
+#ulButton, #olButton, #outdentButton, #indentButton, #AlignPopupButton, #InsertPopupButton, #smileButtonMenu {
     fill: #0044e6 !important;
 }
 
