@@ -28,7 +28,7 @@ treechildren::-moz-tree-image(folderNameCol, imapShared-true) {
 
 /*_General, Mail Tab, And Other Tabs Configuration_*/
 
- /* remove menu and toolbar text shadows */
+/* remove menu and toolbar text shadows */
 #mail-toolbox,
 .mail-toolbox,
 #mail-toolbar-menubar2,
