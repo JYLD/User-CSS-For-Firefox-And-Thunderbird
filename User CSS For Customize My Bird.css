@@ -30,7 +30,7 @@ treechildren::-moz-tree-image(folderNameCol, imapShared-true) {
 
 /*_General, Mail Tab, And Other Tabs Configuration_*/
 
- /* remove menu and toolbar text shadows */
+/* remove menu and toolbar text shadows */
 #mail-toolbox,
 .mail-toolbox,
 #mail-toolbar-menubar2,
@@ -1425,7 +1425,12 @@ menulist, menuitem {
     font-family: 'Archivo Narrow' !important;
 }
 
-#addresses-box #msgSubject {
+#msgheaderstoolbar-box {
+    font-size: 14px !important;
+    font-family: 'Archivo Narrow' !important;
+}
+
+#subject-box #msgSubject {
     color: #000000 !important;
     font-size: 14px !important;
     font-family: 'Archivo Narrow' !important;
