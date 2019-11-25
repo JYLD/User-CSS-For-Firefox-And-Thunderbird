@@ -1,5 +1,33 @@
 /* Place the below in the user CSS section of CustomizeMyBird.  Some of these things may work in a userChrome file, but I'm not sure how well.  Never tried it. */
 
+/*_Optional CSS Begins_*/
+
+/*_Special Folder Icons_*/
+/*_I prefer not to use these special folders except for the Inbox Folder.  If you want them all then uncomment this section AND_*/
+/*_This section must be placed AFTER the other folderTree css.  At the end of my css below is a good place._*/
+/*
+.tabmail-tab[type="folder"][SpecialFolder="Sent"] .tab-icon-image, treechildren::-moz-tree-image(folderNameCol, specialFolder-Sent),
+.tabmail-tab[type="folder"][SpecialFolder="Drafts"] .tab-icon-image, treechildren::-moz-tree-image(folderNameCol, specialFolder-Drafts),
+.tabmail-tab[type="folder"][SpecialFolder="Templates"] .tab-icon-image, treechildren::-moz-tree-image(folderNameCol, specialFolder-Templates),
+.tabmail-tab[type="folder"][SpecialFolder="Junk"] .tab-icon-image, treechildren::-moz-tree-image(folderNameCol, specialFolder-Junk),
+.tabmail-tab[type="folder"][SpecialFolder="Archive"] .tab-icon-image, treechildren::-moz-tree-image(folderNameCol, specialFolder-Archive),
+treechildren::-moz-tree-image(folderNameCol, imapShared-true) {
+    opacity: 1 !important;
+    background: none !important;
+    list-style-image: url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/tb_folder_tb2.png") !important;
+}
+
+.tabmail-tab[type="folder"][SpecialFolder="Inbox"] .tab-icon-image, treechildren::-moz-tree-image(folderNameCol, specialFolder-Inbox),
+.tabmail-tab[type="folder"][SpecialFolder="Outbox"] .tab-icon-image, treechildren::-moz-tree-image(folderNameCol, specialFolder-Outbox),
+.tabmail-tab[type="folder"][SpecialFolder="Trash"] .tab-icon-image, treechildren::-moz-tree-image(folderNameCol, specialFolder-Trash) {
+    opacity: 1 !important;
+    background: none !important;
+    list-style-image: url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/tb_folder_tb3.png") !important;
+}
+/**/
+
+/*_The CSS I use Follows_*/
+
 /*_General, Mail Tab, And Other Tabs Configuration_*/
 
  /* remove menu and toolbar text shadows */
@@ -1541,23 +1569,11 @@ tab.tabmail-tab[label="Add-ons Manager"] image.tab-icon-image {
 
 /*_Special Folder Icons_*/
 /*_This section must be after the other folderTree css_*/
-.tabmail-tab[type="folder"][SpecialFolder="Sent"] .tab-icon-image, treechildren::-moz-tree-image(folderNameCol, specialFolder-Sent),
-.tabmail-tab[type="folder"][SpecialFolder="Drafts"] .tab-icon-image, treechildren::-moz-tree-image(folderNameCol, specialFolder-Drafts),
-.tabmail-tab[type="folder"][SpecialFolder="Templates"] .tab-icon-image, treechildren::-moz-tree-image(folderNameCol, specialFolder-Templates),
-.tabmail-tab[type="folder"][SpecialFolder="Junk"] .tab-icon-image, treechildren::-moz-tree-image(folderNameCol, specialFolder-Junk),
-.tabmail-tab[type="folder"][SpecialFolder="Archive"] .tab-icon-image, treechildren::-moz-tree-image(folderNameCol, specialFolder-Archive),
-treechildren::-moz-tree-image(folderNameCol, imapShared-true) {
-    opacity: 1 !important;
-    background: none !important;
-    list-style-image: url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/tb_folder_tb2.png") !important;
-}
-
-.tabmail-tab[type="folder"][SpecialFolder="Inbox"] .tab-icon-image, treechildren::-moz-tree-image(folderNameCol, specialFolder-Inbox),
-.tabmail-tab[type="folder"][SpecialFolder="Outbox"] .tab-icon-image, treechildren::-moz-tree-image(folderNameCol, specialFolder-Outbox),
-.tabmail-tab[type="folder"][SpecialFolder="Trash"] .tab-icon-image, treechildren::-moz-tree-image(folderNameCol, specialFolder-Trash) {
+.tabmail-tab[type="folder"][SpecialFolder="Inbox"] .tab-icon-image, treechildren::-moz-tree-image(folderNameCol, specialFolder-Inbox) {
     opacity: 1 !important;
     background: none !important;
     list-style-image: url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/tb_folder_tb3.png") !important;
 }
 
 /*___________________________________________*/
+
