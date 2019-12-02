@@ -754,6 +754,8 @@ window {
 
 .calendar-time-bar-box-odd,
 .calendar-time-bar-box-even {
+    font-size: 14px !important;
+    font-family: 'Archivo Narrow' !important;
     font-weight: 600 !important;
     background-color: #FDD06C !important;
     border-top: 1px solid #3D4D57 !important;
@@ -870,9 +872,19 @@ minimonth {
 }
 
 #calendar-nav-control {
-    background: rgba(215,151,27,.1)
-                  linear-gradient(rgba(254,215,123,.8), rgba(252,187,57,.6),
-                                                      rgba(248,159,39,.6), rgba(215,151,27,.5)) !important;
+    background: rgba(252,187,57,1)
+                  linear-gradient(rgba(253,232,191,.9), rgba(248,203,114,.6),
+                                                      rgba(0,0,0,.1), rgba(0,0,0,.15), rgba(0,0,0,.2)) !important;
+    border: none !important;
+}
+
+#calendar-nav-control .view-header {
+    text-shadow: none !important;
+    color: #000000 !important;
+    font-size: 16px !important;
+    font-family: 'Archivo Narrow' !important;
+    font-weight: 700 !important;
+    border: none !important;
 }
 
 .view-header {
