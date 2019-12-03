@@ -132,7 +132,7 @@ treechildren::-moz-tree-image(folderNameCol, imapShared-true) {
 }
 
 #customizemybird_content_box {
-    font-size: 11pt !important;
+    font-size: 15px !important;
     font-family: 'Arial' !important;
 }    
 
@@ -254,7 +254,7 @@ toolbarbutton[disabled="true"] {
            url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/QFBBackground3.png") !important;
     margin-left: 0px !important;
     border: none !important;
-    font-size: 11pt !important;
+    font-size: 15px !important;
     font-family: 'Archivo Narrow' !important;
 }
 
@@ -266,7 +266,7 @@ toolbarbutton[disabled="true"] {
            url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/QFBBackground3.png") !important;
     color: #FFFFFF !important;
     border: none !important;
-    font-size: 11pt !important;
+    font-size: 15px !important;
     font-family: 'Archivo Narrow' !important;
 }
 
@@ -278,7 +278,7 @@ toolbarbutton[disabled="true"] {
            url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/QFBBackground3.png") !important;
     color: #FFFFFF !important;
     border: none !important;
-    font-size: 11pt !important;
+    font-size: 15px !important;
     font-family: 'Archivo Narrow' !important;
 }
 
@@ -286,7 +286,7 @@ toolbarbutton[disabled="true"] {
     background-color: #FFFFFF !important;
     color: #0725EB !important;
     border: none !important;
-    font-size: 11pt !important;
+    font-size: 15px !important;
     font-family: 'Archivo Narrow' !important;
 }
 
@@ -312,7 +312,7 @@ toolbarbutton[disabled="true"] {
            url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/QFBBackground3.png") !important;
     color: #FFFFFF !important;
     border: none !important;
-    font-size: 11pt !important;
+    font-size: 15px !important;
     font-family: 'Archivo Narrow' !important;
 }
 
@@ -363,10 +363,11 @@ toolbarbutton[disabled="true"] {
 } 
 
 #threadTree treechildren::-moz-tree-row(hover) { 
-    background-color: #AEDDFC !important;
-    background: rgba(229, 227, 225, 1.0)
-                  linear-gradient(rgba(255,255,255,.6), rgba(252,252,252,.3), transparent,
-                                                       rgba(0,0,0,.05), rgba(0,0,0,.1), rgba(0,0,0,.15)) !important;
+    background-image: none !important;
+    background-attachment: none !important;
+    background: rgba(242,243,244,1)
+                  linear-gradient(rgba(253,254,255,.7), rgba(238,239,240,.5),
+                                                      transparent, rgba(0,0,0,.05), rgba(0,0,0,.1), rgba(0,0,0,.2)) !important;
     border: none !important;
     margin-left: 4px !important;
     margin-right: 4px !important;
@@ -581,7 +582,7 @@ treechildren::-moz-tree-image(folderNameCol) {
 /*_Search Box Tweaks_*/
 
 .searchBox .textbox-input-box {
-    font-size: 11pt !important;
+    font-size: 15px !important;
     font-family: 'Archivo Narrow' !important;
     color: #072AFF !important;
 }
@@ -606,7 +607,7 @@ treechildren::-moz-tree-image(folderNameCol) {
     background-attachment: none !important;
     background: linear-gradient(rgba(150, 211, 243, .9), rgba(98, 170, 233, .75), rgba(62, 142, 225, .6)),
            url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/QFBBackground3.png") !important;
-    font-size: 11pt !important;
+    font-size: 15px !important;
     font-family: 'Archivo Narrow' !important;
     border: none !important;
 }
@@ -615,7 +616,7 @@ treechildren::-moz-tree-image(folderNameCol) {
     background-color: #84C3EF !important;
     color: #0725EB !important;
     border: none !important;
-    font-size: 11pt !important;
+    font-size: 15px !important;
     font-family: 'Archivo Narrow' !important;
 }
 
@@ -688,19 +689,11 @@ treechildren::-moz-tree-image(folderNameCol) {
 }
 
 calendar-list-tree > tree > treechildren {
-/*   background-color: #FEF6E2 !important;  */
-
-/*    background: linear-gradient(rgba(249, 207, 207, .8), rgba(249, 207, 207, .6), rgba(249, 207, 207, .5)),  */
     background-image: none !important;
     background-attachment: none !important;
     background: linear-gradient(rgba(254, 246, 226, .9), rgba(253, 238, 201, .8), rgba(253, 238, 201, .7)),
            url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/CalendarBackground.png") !important;
-
     color: #12298E !important; 
-}
-
-#calendar-panel {
-    background-color: #FBD06B !important;
 }
 
 #ltnSidebar {
@@ -708,26 +701,32 @@ calendar-list-tree > tree > treechildren {
 }
 
 calendar-day-label {
-    background-color: #FED4D4 !important;
-    color: #0000D0 !important;
+    background-image: none !important;
+    background-attachment: none !important;
+    background: rgba(248,212,230,1.0)
+                  linear-gradient(rgba(255,255,255,.7), rgba(250,250,250,.4),
+                                                      transparent, rgba(0,0,0,.05), rgba(0,0,0,.1), rgba(0,0,0,.2)) !important;
+    color: #0000D8 !important;
     line-height: 30px !important;
-    padding-top: 2px !important;
-    font-size: 11pt !important;
+    padding-top: 0px !important;
+    font-size: 15px !important;
     font-family: 'Archivo Narrow' !important;
 }
 
 .calendar-day-label-name[relation="today"],
 .calendar-day-label-name[relation="today1day"] {
+    font-size: 15px !important;
     color: #0000FF !Important;
-    background: rgba(255,255,255,0.9)
-                  linear-gradient(rgba(252,253,254,.9), rgba(243,244,245,.7),
-                                                      rgba(213,216,217,.7), rgba(193,194,195,.6)) !important;
-    border-top: 0px solid white !important;
-    border-bottom: 0px solid #C1C2C3 !important;
-    padding-left: 30px !important;
-    padding-right: 30px !important;
+    background-image: none !important;
+    background-attachment: none !important;
+    background: rgba(242,243,244,1)
+                  linear-gradient(rgba(253,254,255,.7), rgba(238,239,240,.5),
+                                                      transparent, rgba(0,0,0,.05), rgba(0,0,0,.1), rgba(0,0,0,.2)) !important;
+    border-top: none !important;
+    border-bottom: none !important;
+    padding-left: 36px !important;
+    padding-right: 36px !important;
     line-height: 30px !important;
-    padding-top: 1px !important;
 }
 
 /*
@@ -755,12 +754,12 @@ window {
     font-size: 14px !important;
     font-family: 'Archivo Narrow' !important;
     font-weight: 600 !important;
-    background-color: #FDD06C !important;
+    background-color: #FBD06B !important;
     border-top: 1px solid #3D4D57 !important;
 }
 
 #view-deck {
-    background-color: #FDD06C !important;
+    background-color: #FBD06B !important;
 }
 
 .calendar-event-details,
@@ -768,10 +767,29 @@ window {
 .calendar-event-details-core.location-desc {
     text-shadow: none !important;
     font-family: 'Archivo Narrow' !important;
-    font-size: 14px !important;
+    font-size: 15px !important;
     color: #000000 !important;
     font-weight: 400 !important;
 }
+
+#calendar-panel {
+    background-color: #FBD06B !important;
+}
+
+#calendar-list-header {
+    font-size: 15px !important;
+    font-family: 'Archivo Narrow' !important;
+    font-weight: 700 !important;
+    border: none !important;
+}
+
+#calendar-list-pane  {
+    font-size: 14px !important;
+    font-family: 'Archivo Narrow' !important;
+    font-weight: 400 !important;
+    border: none !important;
+}
+
 
 /*
 tab[calview] {
@@ -946,10 +964,13 @@ timepicker, timepicker-grids, timepicker-minute, timepicker-hour  {
 #calendar-view-box {
     background-color: #FBD06B !important;
     color: #000000 !important; 
-    border-top: 2px solid #FFFFFF !important;
-    border-left: 2px solid #FFFFFF !important;
-    border-right: 2px solid #000000 !important;
-    border-bottom: 2px solid #000000 !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    font-family: 'Archivo Narrow' !important;
+}
+
+#calendar-view-box #unifinder-searchBox box label {
+    font-weight: 500 !important;
     font-size: 14px !important;
     font-family: 'Archivo Narrow' !important;
 }
@@ -960,6 +981,7 @@ timepicker, timepicker-grids, timepicker-minute, timepicker-hour  {
 }
 */
 
+/*
 modehbox {
     background-color: #FBD06B !important;
     color: #12298E !important;
@@ -973,6 +995,7 @@ modehbox:hover {
     background-color: #FFFFFF !important;
     color: #12298E !important;
 }
+*/
 
 toolbarbutton[todaypane="true"] {
     background-color: #E2F0FE !important;
@@ -1036,12 +1059,6 @@ minimonth-header toolbarbutton:hover {
 
 .today-subpane toolbarbutton:hover {
     background-color: #FFFFFF !important;
-}
-
-calendar-list-tree {
-    background-color: #FEF6E2 !important;
-    border-top: 1px solid #000000 !important;
-    border-bottom: 1px solid #000000 !important;
 }
 
 /*
@@ -1373,7 +1390,7 @@ menulist, menuitem {
 }
 
 #tabs-toolbar .tab-text {
-    font-size: 11pt !important;
+    font-size: 15px !important;
     font-family: 'Archivo Narrow' !important;
 }
 
@@ -1390,18 +1407,19 @@ menulist, menuitem {
 #calendar-alarm-dialog,
 #calendar-event-dialog,
 #event-grid-columns,
-#event-grid-rows {
+#event-grid-rows,
+#item-description {
     font-size: 14px !important;
     font-family: 'Archivo Narrow' !important;
 }
 
 #calendar-view-box #unifinder-searchBox {	   
-    font-size: 11pt !important;
+    font-size: 15px !important;
     font-family: 'Archivo Narrow' !important;
 }
 
 #calendar-view-box #unifinder-search-results-tree { 	   
-    font-size: 11pt !important;
+    font-size: 15px !important;
     font-family: 'Archivo Narrow' !important;
 }
 
@@ -1416,22 +1434,22 @@ menulist, menuitem {
 }
 
 #abResultsTree  > treechildren {
-    font-size: 11pt !important;
+    font-size: 15px !important;
     font-family: 'Archivo Narrow' !important;
 }
 
 #abResultsTreeCols {
-    font-size: 11pt !important;
+    font-size: 15px !important;
     font-family: 'Archivo Narrow' !important;
 }
 
 #CardViewBox { 
-    font-size: 11pt !important;
+    font-size: 15px !important;
     font-family: 'Archivo Narrow' !important;
 }
 
 #msgHeaderView {
-    font-size: 11pt !important;
+    font-size: 15px !important;
     font-family: 'Roboto Condensed' !important;
 }
 
@@ -1488,7 +1506,7 @@ menulist, menuitem {
     color: #FFFFFF !important;
     font-weight: bold !important;
     text-decoration: underline !important;
-    font-size: 11pt !important;
+    font-size: 15px !important;
     font-family: 'Roboto Condensed' !important;
 }
 
@@ -1497,7 +1515,7 @@ menulist, menuitem {
     color: #FFFFFF !important;
     font-weight: bold !important;
     text-decoration: underline !important;
-    font-size: 11pt !important;
+    font-size: 15px !important;
     font-family: 'Roboto Condensed' !important;
 }
 
