@@ -709,7 +709,6 @@ calendar-day-label {
                   linear-gradient(rgba(255,255,255,.7), rgba(250,250,250,.4),
                                                       transparent, rgba(0,0,0,.05), rgba(0,0,0,.1), rgba(0,0,0,.2)) !important;
     color: #0000D8 !important;
-    line-height: 30px !important;
     padding-top: 0px !important;
     font-size: 15px !important;
     font-family: 'Archivo Narrow' !important;
@@ -728,7 +727,6 @@ calendar-day-label {
     border-bottom: none !important;
     padding-left: 36px !important;
     padding-right: 36px !important;
-    line-height: 30px !important;
 }
 
 /*
