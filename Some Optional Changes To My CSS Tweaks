@@ -1,0 +1,98 @@
+/*_Optional CSS Begins_*/
+
+/*_Special Folder Icons_*/
+/*_I prefer not to use these special folders except for the Inbox Folder.  If you want them all then uncomment this section AND_*/
+/*_This section must be placed AFTER the other folderTree css.  At the end of my css below is a good place._*/
+/*
+.tabmail-tab[type="folder"][SpecialFolder="Sent"] .tab-icon-image, treechildren::-moz-tree-image(folderNameCol, specialFolder-Sent),
+.tabmail-tab[type="folder"][SpecialFolder="Drafts"] .tab-icon-image, treechildren::-moz-tree-image(folderNameCol, specialFolder-Drafts),
+.tabmail-tab[type="folder"][SpecialFolder="Templates"] .tab-icon-image, treechildren::-moz-tree-image(folderNameCol, specialFolder-Templates),
+.tabmail-tab[type="folder"][SpecialFolder="Junk"] .tab-icon-image, treechildren::-moz-tree-image(folderNameCol, specialFolder-Junk),
+.tabmail-tab[type="folder"][SpecialFolder="Archive"] .tab-icon-image, treechildren::-moz-tree-image(folderNameCol, specialFolder-Archive),
+treechildren::-moz-tree-image(folderNameCol, imapShared-true) {
+    opacity: 1 !important;
+    background: none !important;
+    list-style-image: url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/tb_folder_tb2.png") !important;
+}
+.tabmail-tab[type="folder"][SpecialFolder="Inbox"] .tab-icon-image, treechildren::-moz-tree-image(folderNameCol, specialFolder-Inbox),
+.tabmail-tab[type="folder"][SpecialFolder="Outbox"] .tab-icon-image, treechildren::-moz-tree-image(folderNameCol, specialFolder-Outbox),
+.tabmail-tab[type="folder"][SpecialFolder="Trash"] .tab-icon-image, treechildren::-moz-tree-image(folderNameCol, specialFolder-Trash) {
+    opacity: 1 !important;
+    background: none !important;
+    list-style-image: url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/tb_folder_tb3.png") !important;
+}
+/**/
+
+/*_Add this to the bottom of my CSS if you prefer a more blue color option to the Calendar Tab_*/
+
+/*_Change Calendar To More Blue Theme_*/
+
+/*
+#calendar-view-box {
+    background-image: none !important;
+    background-attachment: none !important;
+    background-color: #3A97E4 !important;
+    color: #FFFFFF !important;
+    font-weight: 600 !important;
+    text-shadow: none !important;
+    border: none !important;
+}
+#calendar-nav-control {
+    background-image: none !important;
+    background-attachment: none !important;
+    background: rgba(18,104,190,.8)
+                  linear-gradient(rgba(170,232,252,.8), rgba(47,141,235,.7) 49%,
+                                                      rgba(32,133,234,.6) 51%, rgba(20,114,208,.5)) !important;
+    color: #FFFFFF !important;
+    font-size: 16px !important;
+    font-family: 'Archivo Narrow' !important;
+    font-weight: 700 !important;
+    border: none !important;
+}
+#calendar-nav-control .view-header {
+    text-shadow: none !important;
+    color: #FFFFFF !important;
+    font-size: 16px !important;
+    font-family: 'Archivo Narrow' !important;
+    font-weight: 600 !important;
+    border: none !important;
+}
+#view-tabs #calendar-day-view-button,
+#view-tabs #calendar-week-view-button,
+#view-tabs #calendar-multiweek-view-button,
+#view-tabs #calendar-month-view-button {
+    color: #FFFFFF !important;
+    font-size: 14px !important;
+    font-family: 'Archivo Narrow' !important;
+    font-weight: 600 !important;
+    border-radius: 6px 6px 0px 0px !important;
+}
+#view-tabs #calendar-day-view-button[selected="true"],
+#view-tabs #calendar-week-view-button[selected="true"],
+#view-tabs #calendar-multiweek-view-button[selected="true"],
+#view-tabs #calendar-month-view-button[selected="true"] {
+    background-color: #FFFFFF !important;
+    color: #12298E !important;
+    font-weight: 700 !important;
+}
+.calendar-time-bar-box-odd,
+.calendar-time-bar-box-even {
+    background-image: none !important;
+    background-attachment: none !important;
+    background: rgba(18,104,190,.8)
+                  linear-gradient(rgba(170,232,252,.8), rgba(47,141,235,.7) 49%,
+                                                      rgba(32,133,234,.6) 51%, rgba(20,114,208,.5)) !important;
+    background-color: #3A97E4 !important;
+    font-size: 14px !important;
+    font-family: 'Archivo Narrow' !important;
+    color: #FFFFFF !important;
+    font-weight: 500 !important;
+    border-top: 1px solid #3D4D57 !important;
+}
+#view-deck {
+    background-image: none !important;
+    background-attachment: none !important;
+    background-color: #3A97E4 !important;
+}
+/*___________________________________________*/
+/**/
