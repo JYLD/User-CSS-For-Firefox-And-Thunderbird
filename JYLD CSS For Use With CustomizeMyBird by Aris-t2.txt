@@ -1,107 +1,3 @@
-﻿/* Place the below in the user CSS section of CustomizeMyBird.  Some of these things may work in a userChrome file, but I'm not sure how well.  Never tried it. */
-
-/*_Optional CSS Begins_*/
-
-/*_Special Folder Icons_*/
-/*_I prefer not to use these special folders except for the Inbox Folder.  If you want them all then uncomment this section AND_*/
-/*_This section must be placed AFTER the other folderTree css.  At the end of my css below is a good place._*/
-/*
-.tabmail-tab[type="folder"][SpecialFolder="Sent"] .tab-icon-image, treechildren::-moz-tree-image(folderNameCol, specialFolder-Sent),
-.tabmail-tab[type="folder"][SpecialFolder="Drafts"] .tab-icon-image, treechildren::-moz-tree-image(folderNameCol, specialFolder-Drafts),
-.tabmail-tab[type="folder"][SpecialFolder="Templates"] .tab-icon-image, treechildren::-moz-tree-image(folderNameCol, specialFolder-Templates),
-.tabmail-tab[type="folder"][SpecialFolder="Junk"] .tab-icon-image, treechildren::-moz-tree-image(folderNameCol, specialFolder-Junk),
-.tabmail-tab[type="folder"][SpecialFolder="Archive"] .tab-icon-image, treechildren::-moz-tree-image(folderNameCol, specialFolder-Archive),
-treechildren::-moz-tree-image(folderNameCol, imapShared-true) {
-    opacity: 1 !important;
-    background: none !important;
-    list-style-image: url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/tb_folder_tb2.png") !important;
-}
-.tabmail-tab[type="folder"][SpecialFolder="Inbox"] .tab-icon-image, treechildren::-moz-tree-image(folderNameCol, specialFolder-Inbox),
-.tabmail-tab[type="folder"][SpecialFolder="Outbox"] .tab-icon-image, treechildren::-moz-tree-image(folderNameCol, specialFolder-Outbox),
-.tabmail-tab[type="folder"][SpecialFolder="Trash"] .tab-icon-image, treechildren::-moz-tree-image(folderNameCol, specialFolder-Trash) {
-    opacity: 1 !important;
-    background: none !important;
-    list-style-image: url("file:///T:/Users/Administrator/AppData/Roaming/Thunderbird/Profiles/6ztqu4q0.AB/extensions/tb_folder_tb3.png") !important;
-}
-/**/
-
-/*_Add this to the bottom of my CSS if you prefer a more blue color option to the Calendar Tab_*/
-
-/*_Change Calendar To More Blue Theme_*/
-
-/*
-#calendar-view-box {
-    background-image: none !important;
-    background-attachment: none !important;
-    background-color: #3A97E4 !important;
-    color: #FFFFFF !important;
-    font-weight: 600 !important;
-    text-shadow: none !important;
-    border: none !important;
-}
-#calendar-nav-control {
-    background-image: none !important;
-    background-attachment: none !important;
-    background: rgba(18,104,190,.8)
-                  linear-gradient(rgba(170,232,252,.8), rgba(47,141,235,.7) 49%,
-                                                      rgba(32,133,234,.6) 51%, rgba(20,114,208,.5)) !important;
-    color: #FFFFFF !important;
-    font-size: 16px !important;
-    font-family: 'Archivo Narrow' !important;
-    font-weight: 700 !important;
-    border: none !important;
-}
-#calendar-nav-control .view-header {
-    text-shadow: none !important;
-    color: #FFFFFF !important;
-    font-size: 16px !important;
-    font-family: 'Archivo Narrow' !important;
-    font-weight: 600 !important;
-    border: none !important;
-}
-#view-tabs #calendar-day-view-button,
-#view-tabs #calendar-week-view-button,
-#view-tabs #calendar-multiweek-view-button,
-#view-tabs #calendar-month-view-button {
-    color: #FFFFFF !important;
-    font-size: 14px !important;
-    font-family: 'Archivo Narrow' !important;
-    font-weight: 600 !important;
-    border-radius: 6px 6px 0px 0px !important;
-}
-#view-tabs #calendar-day-view-button[selected="true"],
-#view-tabs #calendar-week-view-button[selected="true"],
-#view-tabs #calendar-multiweek-view-button[selected="true"],
-#view-tabs #calendar-month-view-button[selected="true"] {
-    background-color: #FFFFFF !important;
-    color: #12298E !important;
-    font-weight: 700 !important;
-}
-.calendar-time-bar-box-odd,
-.calendar-time-bar-box-even {
-    background-image: none !important;
-    background-attachment: none !important;
-    background: rgba(18,104,190,.8)
-                  linear-gradient(rgba(170,232,252,.8), rgba(47,141,235,.7) 49%,
-                                                      rgba(32,133,234,.6) 51%, rgba(20,114,208,.5)) !important;
-    background-color: #3A97E4 !important;
-    font-size: 14px !important;
-    font-family: 'Archivo Narrow' !important;
-    color: #FFFFFF !important;
-    font-weight: 500 !important;
-    border-top: 1px solid #3D4D57 !important;
-}
-#view-deck {
-    background-image: none !important;
-    background-attachment: none !important;
-    background-color: #3A97E4 !important;
-}
-/*___________________________________________*/
-/**/
-
-
-/* The CSS I actually use follows: */
-
 /*_General, Mail Tab, And Other Tabs Configuration_*/
 
 /* remove menu and toolbar text shadows */
@@ -173,8 +69,9 @@ toolbarbutton[disabled="true"] {
 #mail-toolbox toolbarbutton:hover {
     color: #BC0030 !important;
     background: rgba(255,255,255,1.0)
-                  linear-gradient(rgba(255,255,255,.95), rgba(254,252,250,.8), rgba(0,0,0,.05),
-                                                       rgba(0,0,0,.1), rgba(0,0,0,.2), rgba(0,0,0,.3)) !important;
+                  linear-gradient(rgba(255,255,255,.95), rgba(254,252,250,.8), rgba(0,0,0,.02),
+                                                       rgba(0,0,0,.04), rgba(0,0,0,.08), rgba(0,0,0,.12)) !important;
+    text-decoration: underline overline !important;
 }
 
 #tabs-toolbar {	   
@@ -716,44 +613,6 @@ calendar-day-label {
     font-family: 'Archivo Narrow' !important;
 }
 
-.calendar-color-box:not([calendar-id="8e0696bb-8a86-40af-9e01-c83ba448a314"]) {
-    min-height: 28px !important;
-    padding: 2px 0px 0px 6px !important;
-    margin-left: -1px !important;
-    border: 1px solid #950505 !important;
-}
-
-.calendar-color-box:not([calendar-id="8e0696bb-8a86-40af-9e01-c83ba448a314"]) .calendar-event-details {
-    color: #FFFFFF !important;
-    font-weight: bold !important;
-    font-size: 18px !important;
-    padding-bottom: 2px !important;
-}
-
-.calendar-color-box[calendar-id="8e0696bb-8a86-40af-9e01-c83ba448a314"] {
-    background-image: none !important;
-    background-attachment: none !important;
-    background-color: #8FF8F8 !important;
-    background: rgba(143,248,248,1.0)
-                  linear-gradient(rgba(220,252,252,.95), rgba(143,248,248,.85), rgba(72,240,240,.10),
-                                                       rgba(10,158,158,.15), rgba(8,120,120,.20), rgba(6,92,92,.35)) !important;
-    min-height: 28px !important;
-    padding: 1px 0px 0px 0px !important;
-    margin: 0px -6px -2px -1px !important;
-    border: 1px solid #11D5D5 !important;
-}
-
-.multiday-view-header-day-box[orient="horizontal"] {
-    border-bottom: 3px solid #FBD06B !important;
-    border-top: 1px solid #FBD06B !important;
-}
-
-.multiday-view-header-box .calendar-color-box[calendar-id="8e0696bb-8a86-40af-9e01-c83ba448a314"] .calendar-event-details {
-    min-height: 28px !important;
-    padding-top: 2px !important;
-    font-weight: bold !important;
-}
-
 .calendar-day-label-name[relation="today"],
 .calendar-day-label-name[relation="today1day"] {
     background-image: none !important;
@@ -763,8 +622,8 @@ calendar-day-label {
                                                       rgba(0,0,0,.05), rgba(0,0,0,.15), rgba(0,0,0,.3)) !important;
     border-top: none !important;
     border-bottom: none !important;
-    padding-left: 46px !important;
-    padding-right: 46px !important;
+    padding-left: 24px !important;
+    padding-right: 24px !important;
 }
 
 .calendar-day-label-name[relation="today"],
@@ -797,18 +656,6 @@ window {
 /*    --viewOffTimeBackground: #A5BFE7 !important; */
     --viewOffTimeBackground: #D0D8CB !important;
     --viewTimeBoxColor: #3D4D57 !important;
-}
-
-.calendar-color-box {
-    margin-right: -6px !important;
-}
-
-.calendar-category-box-gradient {
-    width: 24px !important;
-}
-
-.calendar-event-box-container[categories]:not([categories=":empty"])  .calendar-event-details {
-    padding-right: 16px !important;
 }
 
 .calendar-time-bar-box-odd,
@@ -1197,11 +1044,51 @@ minimonth-header toolbarbutton:hover {
 }
 */
 
+#abResultsTree > treechildren::-moz-tree-row(odd) { 
+    background-color: #E7F7FE !important; 
+    border: none !important;
+} 
+
+#abResultsTree > treechildren::-moz-tree-row(even) { 
+    background-color: #F9FEFF !important; 
+    border: none !important;
+} 
+
+#abResultsTree > treechildren::-moz-tree-row(hover) { 
+    background-image: none !important;
+    background-attachment: none !important;
+    background-color: #2B81D9 !important;
+    background: rgba(18,104,190,.8)
+                  linear-gradient(rgba(170,232,252,.8), rgba(47,141,235,.7) 49%,
+                                                      rgba(32,133,234,.6) 51%, rgba(20,114,208,.5)) !important;
+    border: none !important;
+    margin-left: 4px !important;
+    margin-right: 4px !important;
+    border-radius: 12px 12px 12px 12px !important;
+}
+
+#abResultsTree > treechildren:-moz-tree-cell-text(hover) {
+    line-height: 22px !important;
+    color: #FFFFFF !important;
+    font-weight: normal !important;
+}
+
 #abResultsTree > treechildren::-moz-tree-row(selected) {
+    color: #1018A8 !important
     background-color: #FFD0F8 !important; 
     background: rgba(255,208,248,1.0)
                   linear-gradient(rgba(255,255,255,.5), rgba(250,250,250,.4),
                                                       transparent, rgba(0,0,0,.06), rgba(0,0,0,.1)) !important;
+    border: none !important;
+    margin-left: 4px !important;
+    margin-right: 4px !important;
+    border-radius: 12px 12px 12px 12px !important;
+}
+
+#abResultsTree > treechildren:-moz-tree-cell-text(selected) {
+    line-height: 22px !important;
+    color: #000000 !important;
+    font-weight: bold !important;
 }
 
 #abResultsTree > treechildren::-moz-tree-row(selected, focus) {
@@ -1209,6 +1096,23 @@ minimonth-header toolbarbutton:hover {
     background: highlight
                   linear-gradient(rgba(255,255,255,.5), rgba(250,250,250,.4),
                                                       transparent, rgba(0,0,0,.06), rgba(0,0,0,.1)) !important;
+    border: none !important;
+    margin-left: 4px !important;
+    margin-right: 4px !important;
+    border-radius: 12px 12px 12px 12px !important;
+}
+
+#abResultsTree > treechildren:-moz-tree-cell-text(selected, focus) {
+    line-height: 22px !important;
+    color: #FFFFFF !important;
+    font-weight: bold !important;
+}
+
+#abResultsTree > treechildren::-moz-tree-row {
+    height: 22px !important; 
+    padding-bottom: 7px !important;
+    border: none !important;
+    margin-bottom: 1px !important;
 }
 
 #CardTitle {
@@ -1795,6 +1699,114 @@ tab.tabmail-tab[label="Add-ons Manager"] image.tab-icon-image {
     font-size: 15px !important;
     font-family: 'Archivo Narrow' !important;
     line-height: 130% !important;
+}
+
+/*______Additional Calendar Tweaks______*/
+
+.calendar-color-box {
+    margin-right: -6px !important;
+}
+
+.calendar-category-box-gradient {
+    width: 24px !important;
+}
+
+.calendar-event-box-container[categories]:not([categories=":empty"]) .calendar-event-details {
+    padding-right: 16px !important;
+}
+
+.multiday-view-header-box .calendar-event-box-container[categories] .calendar-event-details  {
+    padding-right: 0px !important;
+    margin-right: -10px !important;
+    height: 26px !important;
+    padding-top: 2px !important;
+}
+
+#multiweek-view .calendar-event-box-container[categories] .calendar-event-details, #month-view .calendar-event-box-container[categories] .calendar-event-details {
+    padding-right: 0px !important;
+    margin-right: -6px !important;
+}
+
+.multiday-view-header-day-box[orient="horizontal"] {
+    border-bottom: 3px solid #FBD06B !important;
+    border-top: 1px solid #FBD06B !important;
+    border-left: none !important;
+    border-right: none !important;
+    margin-right: 1px !important;
+}
+
+.multiday-view-header-box .calendar-color-box[calendar-id="660bba69-9043-40be-ade2-6b922ae6f375"] .calendar-event-details {
+    color: #FFFFFF !important;
+    font-weight: bold !important;
+    font-size: 16px !important;
+    padding-bottom: 2px !important;
+}
+
+.multiday-view-header-box .calendar-color-box[calendar-id="8e0696bb-8a86-40af-9e01-c83ba448a314"] .calendar-event-details, .multiday-view-header-box .calendar-color-box[calendar-id="80d7a886-6af3-4ba6-8327-f1ed049e5485"] .calendar-event-details {
+    font-weight: bold !important;
+    font-size: 15px !important;
+    color: #000000 !important;
+}
+
+.calendar-color-box[calendar-id="660bba69-9043-40be-ade2-6b922ae6f375"] .calendar-event-details {
+    color: #FFFFFF !important;
+    font-weight: bold !important;
+    font-size: 16px !important;
+}
+
+.calendar-color-box[calendar-id="660bba69-9043-40be-ade2-6b922ae6f375"] {
+    margin-left: -1px !important;
+    border: 1px solid #FBD06B !important;
+}
+
+#month-view .calendar-color-box[calendar-id="660bba69-9043-40be-ade2-6b922ae6f375"] .calendar-event-details, #multiweek-view .calendar-color-box[calendar-id="660bba69-9043-40be-ade2-6b922ae6f375"] .calendar-event-details {
+    font-size: 15px !important;
+}
+
+.calendar-color-box[calendar-id="8e0696bb-8a86-40af-9e01-c83ba448a314"], .calendar-color-box[calendar-id="80d7a886-6af3-4ba6-8327-f1ed049e5485"] {
+    background-image: none !important;
+    background-attachment: none !important;
+    background-color: #A8FAFA !important;
+    background: rgba(168,250,250,1.0)
+                  linear-gradient(rgba(210,255,255,.95), rgba(168,250,250,.85), rgba(72,240,240,.10),
+                                                       rgba(10,158,158,.15), rgba(8,120,120,.20), rgba(6,92,92,.35)) !important;
+    padding: 1px 0px 0px 0px !important;
+    margin-bottom: -1px !important;
+    margin-left: -1px !important;
+    border: 1px solid #11D5D5 !important;
+}
+
+#month-view .calendar-color-box[calendar-id="80d7a886-6af3-4ba6-8327-f1ed049e5485"] .calendar-event-details, #multiweek-view .calendar-color-box[calendar-id="80d7a886-6af3-4ba6-8327-f1ed049e5485"] .calendar-event-details {
+    background-image: none !important;
+    background-attachment: none !important;
+    background-color: #A8FAFA !important;
+    background: rgba(168,250,250,1.0)
+                  linear-gradient(rgba(210,255,255,.95), rgba(168,250,250,.85), rgba(72,240,240,.10),
+                                                       rgba(10,158,158,.15), rgba(8,120,120,.20), rgba(6,92,92,.35)) !important;
+    color: #000000 !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+}
+
+#month-view .calendar-color-box[calendar-id="8e0696bb-8a86-40af-9e01-c83ba448a314"] .calendar-event-details, #multiweek-view .calendar-color-box[calendar-id="8e0696bb-8a86-40af-9e01-c83ba448a314"] .calendar-event-details {
+    background-image: none !important;
+    background-attachment: none !important;
+    background-color: #8FF8F8 !important;
+    background: rgba(143,248,248,1.0)
+                  linear-gradient(rgba(220,252,252,.95), rgba(143,248,248,.85), rgba(72,240,240,.10),
+                                                       rgba(10,158,158,.15), rgba(8,120,120,.20), rgba(6,92,92,.35)) !important;
+    color: #000000 !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+}
+
+#calendar-week-view-button[selected="true"], #calendar-multiweek-view-button[selected="true"], #calendar-month-view-button[selected="true"], #calendar-day-view-button[selected="true"] {
+    border-top: 2px solid #1018A8 !important;
+    border-right: 3px solid #1018A8 !important;
+    border-left: 3px solid #1018A8 !important;
+    margin-top: -3px !important;
+    color: #BC0030 !important;
+    text-decoration: underline double !important;
 }
 
 /*___________________________________________*/
